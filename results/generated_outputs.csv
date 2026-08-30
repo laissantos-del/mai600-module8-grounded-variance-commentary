@@ -1,0 +1,165 @@
+arm,case_id,stratum,period,answer,response_time_s
+B0,P2402-1,version_sensitive,2024-02,"4000 · Revenue was $900,000 over budget (+6.0%) in 2024-02 for CC-2100. Commentary required: True.",0.0
+B0,P2402-2,immaterial,2024-02,(no commentary produced; immaterial),0.0
+B0,P2402-3,evidence_less,2024-02,"5000 · Cost of Goods Sold was $745,000 over budget (+7.9%) in 2024-02 for CC-3100. Commentary required: True.",0.0
+B0,P2405-1,documented,2024-05,"6500 · R&D Operating Expense was $281,000 over budget (+41.6%) in 2024-05 for CC-5100. Commentary required: True.",0.0
+B0,P2405-2,immaterial,2024-05,(no commentary produced; immaterial),0.0
+B0,P2405-3,evidence_less,2024-05,"6100 · Legal & Professional was $371,000 over budget (+58.6%) in 2024-05 for CC-6100. Commentary required: True.",0.0
+B0,P2409-1,evidence_less,2024-09,"6100 · Legal & Professional was $2,400,000 over budget (+379.1%) in 2024-09 for CC-6100. Commentary required: True.",0.0
+B0,P2409-2,immaterial,2024-09,(no commentary produced; immaterial),0.0
+B0,P2409-3,evidence_less,2024-09,"6300 · Distribution Expense was $345,000 over budget (+32.9%) in 2024-09 for CC-3100. Commentary required: True.",0.0
+B0,P2412-1,documented,2024-12,"4000 · Revenue was $405,000 under budget (-9.0%) in 2024-12 for CC-2100. Commentary required: True.",0.0
+B0,P2412-2,immaterial,2024-12,(no commentary produced; immaterial),0.0
+B0,P2503-1,covenant,2025-03,"7000 · Interest Expense was $104,000 over budget (+10.0%) in 2025-03 for CC-6100. Commentary required: True.",0.0
+B0,P2503-2,immaterial,2025-03,(no commentary produced; immaterial),0.0
+B0,P2506-1,evidence_less,2025-06,"5000 · Cost of Goods Sold was $680,000 under budget (-7.3%) in 2025-06 for CC-3100. Commentary required: True.",0.0
+B0,P2506-2,immaterial,2025-06,(no commentary produced; immaterial),0.0
+B0,P2508-1,documented,2025-08,"4000 · Revenue was $620,000 over budget (+27.6%) in 2025-08 for CC-2100. Commentary required: True.",0.0
+B0,P2508-2,immaterial,2025-08,(no commentary produced; immaterial),0.0
+B0,P2510-1,documented,2025-10,"5000 · Cost of Goods Sold was $1,800,000 over budget (+19.2%) in 2025-10 for CC-3100. Commentary required: True.",0.0
+B0,P2510-2,immaterial,2025-10,(no commentary produced; immaterial),0.0
+B0,P2510-3,evidence_less,2025-10,"6100 · Legal & Professional was $517,000 over budget (+81.7%) in 2025-10 for CC-6100. Commentary required: True.",0.0
+B1,P2402-1,version_sensitive,2024-02,"Revenue up $900K (+6.0%) due to price increases, with no volume or mix changes.  
+
+*Cause: The full variance stems from a positive price effect of $900K, indicating higher pricing across products, likely driven by strategic pricing adjustments or market demand. No volume or mix shifts suggest demand stability, with pricing as the primary driver.*",1.08
+B1,P2402-2,immaterial,2024-02,(no commentary produced; immaterial),0.0
+B1,P2402-3,evidence_less,2024-02,Actual COGS $745K higher (7.9%) than budget—likely due to rising raw material costs and increased production inefficiencies.,0.54
+B1,P2405-1,documented,2024-05,Actual R&D expense $281K (+41.6%) vs budget — a significant variance likely caused by unplanned lab expansion or increased personnel costs.,0.57
+B1,P2405-2,immaterial,2024-05,(no commentary produced; immaterial),0.0
+B1,P2405-3,evidence_less,2024-05,"Actual $1.0M vs. Budget $633K (+$371K, +58.6%) — likely caused by increased legal fees from new compliance initiatives and litigation costs.",0.66
+B1,P2409-1,evidence_less,2024-09,"Actual $3.0M vs. Budget $633K (+$2.4M, +379.1%); likely cause: one-time legal fees or audit costs not accounted for in budget.",0.71
+B1,P2409-2,immaterial,2024-09,(no commentary produced; immaterial),0.0
+B1,P2409-3,evidence_less,2024-09,Distribution expenses $345K (+32.9%) vs budget—likely due to higher freight costs and increased logistics demand in Q3.,0.54
+B1,P2412-1,documented,2024-12,"Revenue $405K below budget (-9.0%), driven by price reductions.  
+Most likely cause: Significant price cuts across EMEA products to boost volume, reducing revenue despite no volume or mix changes.",0.68
+B1,P2412-2,immaterial,2024-12,(no commentary produced; immaterial),0.0
+B1,P2503-1,covenant,2025-03,Interest Expense $104K (+10.0%) vs budget—driven by higher borrowing costs due to elevated loan rates in the period.,0.55
+B1,P2503-2,immaterial,2025-03,(no commentary produced; immaterial),0.0
+B1,P2506-1,evidence_less,2025-06,$680K (7.3%) below budget – likely due to lower-than-expected raw material prices and reduced production volumes.,0.51
+B1,P2506-2,immaterial,2025-06,(no commentary produced; immaterial),0.0
+B1,P2508-1,documented,2025-08,"Revenue up $620K (+27.6%) due to higher aftermarket parts volume—driven by strong sales volume, not price or mix changes.",0.58
+B1,P2508-2,immaterial,2025-08,(no commentary produced; immaterial),0.0
+B1,P2510-1,documented,2025-10,"Actual COGS $18M (+19.2%) vs budget — $1.8M over budget, driven by higher raw material costs and supply chain delays.",0.6
+B1,P2510-2,immaterial,2025-10,(no commentary produced; immaterial),0.0
+B1,P2510-3,evidence_less,2025-10,"Actual $1.15M vs. Budget $633K (+$517K, +81.7%) — likely caused by unplanned legal fees from major litigation or compliance initiatives.",0.69
+B2,P2402-1,version_sensitive,2024-02,"Revenue variance: USD 900,000 (6.0%) [n]. Driven by approved 6% list-price increase effective February 2024 [n]. Price effect: USD 900,000 [n]. Volume and mix effects: zero [n]. Materiality thresholds met [n]. No supporting evidence for other drivers; variance unexplained beyond price effect [n]. Escalate to cost-centre owner if additional drivers emerge [n].",3.12
+B2,P2402-2,immaterial,2024-02,(no commentary produced; immaterial),0.0
+B2,P2402-3,evidence_less,2024-02,"Cost of Goods Sold variance: USD 745,000 (7.9%) against budget [n]. Driven by 18% steel index rise impacting Drive Assemblies unit cost [10][11]. Supported by Procurement memo [10]. No other documented drivers. Variance exceeds materiality thresholds [1]. Commentary required due to materiality [1].",2.75
+B2,P2405-1,documented,2024-05,"R&D Operating Expense variance: USD 281,000 (41.6%) above budget [n]. Driver: Headcount ramp in CC-5100 from 12 to 25, with May cohort onboarding [n]. Supported by R&D Programme Office memo [n]. No other documented causes. Variance meets materiality threshold (USD 250,000 and 5% of budget) [n].",2.94
+B2,P2405-2,immaterial,2024-05,(no commentary produced; immaterial),0.0
+B2,P2405-3,evidence_less,2024-05,"Variance: USD 371,000 (58.6%) [n]. Materiality thresholds met: USD 250,000 and 5% of budget [n]. Cause: Steel index rise of 18% increases Drive Assemblies cost of goods sold by USD 495,000 [n]. Supported by D11 §2 and D20 COGS Commentary [n]. No other documented drivers. Escalate to cost-centre owner per D03 §5.1.",3.16
+B2,P2409-1,evidence_less,2024-09,"Actual: $3,033,000 | Budget: $633,000 | Variance: +$2,400,000 (+379.1%) [n].  
+Materiality thresholds met: variance exceeds $250,000 and 5% of budget [n].  
+Primary driver: Steel index rise of 18% increasing Drive Assemblies COGS by $495,000 [n].  
+Supporting evidence: D11 §2, D20 COGS Commentary [n].  
+No other documented drivers. Variance unexplained beyond steel index impact. Escalate to cost-centre owner [n].",3.61
+B2,P2409-2,immaterial,2024-09,(no commentary produced; immaterial),0.0
+B2,P2409-3,evidence_less,2024-09,"Distribution Expense variance: USD 345,000 (32.9%) against budget [n]. Materiality thresholds met: USD 250,000 and 5% of budget [1]. Driver: Steel index rise of 18% impacting Drive Assemblies cost of goods sold, increasing unit cost by USD 495,000 [11]. Supported by Procurement memo [10]. No other documented causes. Escalate to cost-centre owner per §5.1 [3].",3.12
+B2,P2412-1,documented,2024-12,"Revenue variance: USD -405,000 (-9.0%), meeting materiality thresholds [1]. Driver: 9% euro weakening reduces EMEA revenue by USD 405,000 vs. budget [20]. No other documented causes. Commentary supported by source [20]. Escalation to cost-centre owner if further evidence required [3].",2.73
+B2,P2412-2,immaterial,2024-12,(no commentary produced; immaterial),0.0
+B2,P2503-1,covenant,2025-03,"Interest expense variance is USD 104,000 (10.0%) against budget [n]. The increase is driven by a USD 104,000 interest expense uplift from the March revolver draw, which elevated net leverage to 3.4x, triggering a 100 bps margin step under the pricing grid [n]. This movement meets the covenant disclosure trigger of 0.25x, requiring commentary [n]. No other driver is supported.",3.12
+B2,P2503-2,immaterial,2025-03,(no commentary produced; immaterial),0.0
+B2,P2506-1,evidence_less,2025-06,"Cost of Goods Sold variance: USD (680,000) [-7.3%], material by dollar and percentage thresholds [1]. Driver: Steel index rise (18%) increasing Drive Assemblies unit cost by USD 495,000 [11]. Supported by Procurement memo [10]. Escalate to cost-centre owner per §5.1 [3].",2.84
+B2,P2506-2,immaterial,2025-06,(no commentary produced; immaterial),0.0
+B2,P2508-1,documented,2025-08,"Revenue variance: USD 620,000 (27.6%) [n]. Driven by Aftermarket Parts launch, which generated USD 620,000 in revenue in August [n]. No other driver supported. Variance exceeds dollar materiality threshold (USD 500,000) [n]. Commentary required due to materiality [n].",2.83
+B2,P2508-2,immaterial,2025-08,(no commentary produced; immaterial),0.0
+B2,P2510-1,documented,2025-10,"Cost of Goods Sold variance: USD 1,800,000 (19.2%) [n]. Driven by a USD 1,800,000 inventory write-down of slow-moving Drive Assemblies and Aftermarket stock above net realisable value [n]. Supported by Operations memo D19 §1. Materiality thresholds met [n]. No other drivers identified.",2.82
+B2,P2510-2,immaterial,2025-10,(no commentary produced; immaterial),0.0
+B2,P2510-3,evidence_less,2025-10,"Variance: USD 517,000 (81.7%) [n]. Materiality thresholds met: USD 500,000 absolute variance [n]. Cause: Write-down of slow-moving inventory of USD 1,800,000 in cost of goods sold [n]. Supported by D19 §1 [n]. No other documented drivers. Escalate to cost-centre owner per D01 §5.1 [n].",3.03
+B3,P2402-1,version_sensitive,2024-02,"Headline: $900,000 (+6.0%) variance due to favourable price effect.  
+Cause: supported [5]  
+Accountable owner: Cost-centre owner of CC-2100  
+Citations: [5] (price effect), [1] (materiality met: $900K > $500K)",1.12
+B3,P2402-2,immaterial,2024-02,(no commentary produced; immaterial),0.0
+B3,P2402-3,evidence_less,2024-02,"Headline: $745,000 (+7.9%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citations: [n] variance figures; [n] materiality rule (D01 §4.2); no driver evidence supports cause.",1.08
+B3,P2405-1,documented,2024-05,"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
+Cause: supported by D15 §1 (headcount ramp in CC-5100) [n]  
+Accountable owner: K. Okafor, R&D Finance Lead [n]  
+Citations: [n]3, [n]2",1.09
+B3,P2405-2,immaterial,2024-05,(no commentary produced; immaterial),0.0
+B3,P2405-3,evidence_less,2024-05,"Headline: $371,000 (+58.6%) variance in Legal & Professional (CC-6100).  
+Cause: unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: Policy D04; Driver Evidence absent]  
+[Materiality: exceeds dollar threshold ($250,000) and pct threshold (5.0%); Policy D01 §4.3 applies only if covenant-sensitive—no such metric cited.]",1.38
+B3,P2409-1,evidence_less,2024-09,"Headline: $2,400,000 variance (+379.1%), unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: 3] does not support cause; [4][5] pertain to other cost centres.  
+[Policy D01 §4.3] does not trigger due to no covenant metric movement.  
+[Materiality] thresholds not met: $2.4M > $500K (dollar alone), but no driver evidence.  
+Cause: unsupported [n]. Escalate to cost-centre owner.",1.63
+B3,P2409-2,immaterial,2024-09,(no commentary produced; immaterial),0.0
+B3,P2409-3,evidence_less,2024-09,"Headline: $345,000 (+32.9%) variance in Distribution Expense.  
+Cause: unsupported  
+Accountable owner: cost-centre owner (CC-3100)  
+[Citation: Driver Evidence [3], [4], [5] do not support a cause for Distribution Expense variance.]  
+[Policy Clause: D01 §4.2 — variance exceeds materiality threshold ($250,000 and 5% of $1M), thus commentary required.]",1.4
+B3,P2412-1,documented,2024-12,"Headline: $405,000 (-9.0%) variance due to 9% adverse rate movement [5].  
+Cause: supported [5].  
+Accountable owner: EMEA Revenue Owner.  
+Citations: [5] (rate movement), [1] (materiality met: $405K ≥ $250K and 9.0% ≥ 5.0%).",1.15
+B3,P2412-2,immaterial,2024-12,(no commentary produced; immaterial),0.0
+B3,P2503-1,covenant,2025-03,"Headline: $104,000 (+10.0%) variance in Interest Expense  
+Cause: Supported by D17 §3 (interest impact from draw)  
+Accountable owner: M. Duarte (Group Financial Controller)  
+Citations: [n]4, [n]2",0.89
+B3,P2503-2,immaterial,2025-03,(no commentary produced; immaterial),0.0
+B3,P2506-1,evidence_less,2025-06,"Headline: $680K (7.3%) variance against budget.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citation: [1] D01 §4.2 (materiality met: $680K > $250K and 7.3% > 5%) — variance exceeds materiality thresholds; no driver evidence supports cause. Escalation required.",1.29
+B3,P2506-2,immaterial,2025-06,(no commentary produced; immaterial),0.0
+B3,P2508-1,documented,2025-08,"Headline: $620K (+27.6%) variance in Aftermarket Parts revenue.  
+Cause: unsupported  
+Accountable owner: Cost-centre owner (CC-2100)  
+Citation: [2] D03 §2; no DRIVER EVIDENCE supports price, volume, or mix effect for this account. Escalation required per Rule 2.",1.07
+B3,P2508-2,immaterial,2025-08,(no commentary produced; immaterial),0.0
+B3,P2510-1,documented,2025-10,"Headline: $1,800,000 (+19.2%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: Not assigned (escalation required)  
+Citation: [n] — variance exceeds materiality thresholds per POLICY [1] (a) and (b); no DRIVER EVIDENCE supports cause. Escalation to cost-centre owner per RULE 2.",1.15
+B3,P2510-2,immaterial,2025-10,(no commentary produced; immaterial),0.0
+B3,P2510-3,evidence_less,2025-10,"Headline: $517,000 variance (81.7% over budget) [n]  
+Cause: unsupported [n]  
+Accountable owner: M. Duarte, Group Financial Controller [n]  
+Citation: [1] (covenant-sensitive), [2] (ownership), [3]–[5] (no driver evidence)  
+
+*Note: No DRIVER EVIDENCE supports a cause for Legal & Professional variance. Materiality thresholds exceeded [dollar_alone_threshold: 500,000] and [pct_threshold_usd: 31,650], per POLICY [4.2].*",1.72
+B4,P2402-1,version_sensitive,2024-02,"Headline: $900,000 (+6.0%) variance due to favourable price effect.  
+Cause: supported [5]  
+Accountable owner: Cost-centre owner of CC-2100  
+Citations: [5] (price effect), [1] (materiality met: $900K > $500K)",1.38
+B4,P2402-2,immaterial,2024-02,(no commentary produced; immaterial),0.0
+B4,P2402-3,evidence_less,2024-02,"Headline: $745,000 (+7.9%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citations: [n] variance figures; [n] materiality rule (D01 §4.2); no driver evidence supports cause.",1.41
+B4,P2405-1,documented,2024-05,"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
+Cause: supported by D15 §1 (headcount ramp in CC-5100) [n]  
+Accountable owner: K. Okafor, R&D Finance Lead [n]  
+Citations: [n]3, [n]2",1.06
+B4,P2405-2,immaterial,2024-05,(no commentary produced; immaterial),0.0
+B4,P2405-3,evidence_less,2024-05,"6100 · Legal & Professional variance $371,000 (+58.6%) in 2024-05 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — General and Administrative.",0.0
+B4,P2409-1,evidence_less,2024-09,"6100 · Legal & Professional variance $2,400,000 (+379.1%) in 2024-09 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — General and Administrative.",0.0
+B4,P2409-2,immaterial,2024-09,(no commentary produced; immaterial),0.0
+B4,P2409-3,evidence_less,2024-09,"6300 · Distribution Expense variance $345,000 (+32.9%) in 2024-09 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner.",0.0
+B4,P2412-1,documented,2024-12,"Headline: $405,000 (-9.0%) variance due to 9% adverse rate movement [5].  
+Cause: supported [5].  
+Accountable owner: EMEA Revenue Owner.  
+Citations: [5] (rate movement), [1] (materiality met: $405K ≥ $250K and 9.0% ≥ 5.0%).",1.5
+B4,P2412-2,immaterial,2024-12,(no commentary produced; immaterial),0.0
+B4,P2503-1,covenant,2025-03,"Headline: $104,000 (+10.0%) variance in Interest Expense  
+Cause: Supported by D17 §3 (interest impact from draw)  
+Accountable owner: M. Duarte (Group Financial Controller)  
+Citations: [n]4, [n]2",0.85
+B4,P2503-2,immaterial,2025-03,(no commentary produced; immaterial),0.0
+B4,P2506-1,evidence_less,2025-06,"5000 · Cost of Goods Sold variance $680,000 (-7.3%) in 2025-06 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — Sales and Commercial.",0.0
+B4,P2506-2,immaterial,2025-06,(no commentary produced; immaterial),0.0
+B4,P2508-1,documented,2025-08,"4000 · Revenue variance $620,000 (+27.6%) in 2025-08 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner.",0.0
+B4,P2508-2,immaterial,2025-08,(no commentary produced; immaterial),0.0
+B4,P2510-1,documented,2025-10,"5000 · Cost of Goods Sold variance $1,800,000 (+19.2%) in 2025-10 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — Sales and Commercial.",0.0
+B4,P2510-2,immaterial,2025-10,(no commentary produced; immaterial),0.0
+B4,P2510-3,evidence_less,2025-10,"6100 · Legal & Professional variance $517,000 (+81.7%) in 2025-10 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — General and Administrative.",0.0

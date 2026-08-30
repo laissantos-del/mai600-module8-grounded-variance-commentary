@@ -1,0 +1,165 @@
+arm,case_id,stratum,period,account,variance_usd,commentary_required,gold_doc,retrieval_hit,numeric_fidelity,unmatched_figures,abstained,response_time_s,prompt_chars,gate_passed,gate_reason,answer,outcome,metric
+B0,P2402-1,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,,True,,False,0.0,0,,,"4000 · Revenue was $900,000 over budget (+6.0%) in 2024-02 for CC-2100. Commentary required: True.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B0,P2402-2,immaterial,2024-02,6200 · Marketing Operating Expense,-4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2402-3,evidence_less,2024-02,5000 · Cost of Goods Sold,745000,True,,,True,,False,0.0,0,,,"5000 · Cost of Goods Sold was $745,000 over budget (+7.9%) in 2024-02 for CC-3100. Commentary required: True.",FAIL,Abstention correctness
+B0,P2405-1,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,,True,,False,0.0,0,,,"6500 · R&D Operating Expense was $281,000 over budget (+41.6%) in 2024-05 for CC-5100. Commentary required: True.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B0,P2405-2,immaterial,2024-05,6200 · Marketing Operating Expense,14000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2405-3,evidence_less,2024-05,6100 · Legal & Professional,371000,True,,,True,,False,0.0,0,,,"6100 · Legal & Professional was $371,000 over budget (+58.6%) in 2024-05 for CC-6100. Commentary required: True.",FAIL,Abstention correctness
+B0,P2409-1,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,True,,False,0.0,0,,,"6100 · Legal & Professional was $2,400,000 over budget (+379.1%) in 2024-09 for CC-6100. Commentary required: True.",FAIL,Abstention correctness
+B0,P2409-2,immaterial,2024-09,6200 · Marketing Operating Expense,5000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2409-3,evidence_less,2024-09,6300 · Distribution Expense,345000,True,,,True,,False,0.0,0,,,"6300 · Distribution Expense was $345,000 over budget (+32.9%) in 2024-09 for CC-3100. Commentary required: True.",FAIL,Abstention correctness
+B0,P2412-1,documented,2024-12,4000 · Revenue,-405000,True,D16,,True,,False,0.0,0,,,"4000 · Revenue was $405,000 under budget (-9.0%) in 2024-12 for CC-2100. Commentary required: True.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B0,P2412-2,immaterial,2024-12,6200 · Marketing Operating Expense,9000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2503-1,covenant,2025-03,7000 · Interest Expense,104000,True,D17,,True,,False,0.0,0,,,"7000 · Interest Expense was $104,000 over budget (+10.0%) in 2025-03 for CC-6100. Commentary required: True.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B0,P2503-2,immaterial,2025-03,6200 · Marketing Operating Expense,2000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2506-1,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,False,0.0,0,,,"5000 · Cost of Goods Sold was $680,000 under budget (-7.3%) in 2025-06 for CC-3100. Commentary required: True.",FAIL,Abstention correctness
+B0,P2506-2,immaterial,2025-06,6500 · R&D Operating Expense,6000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2508-1,documented,2025-08,4000 · Revenue,620000,True,D18,,True,,False,0.0,0,,,"4000 · Revenue was $620,000 over budget (+27.6%) in 2025-08 for CC-2100. Commentary required: True.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B0,P2508-2,immaterial,2025-08,6200 · Marketing Operating Expense,7000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2510-1,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,,True,,False,0.0,0,,,"5000 · Cost of Goods Sold was $1,800,000 over budget (+19.2%) in 2025-10 for CC-3100. Commentary required: True.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B0,P2510-2,immaterial,2025-10,6200 · Marketing Operating Expense,4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B0,P2510-3,evidence_less,2025-10,6100 · Legal & Professional,517000,True,,,True,,False,0.0,0,,,"6100 · Legal & Professional was $517,000 over budget (+81.7%) in 2025-10 for CC-6100. Commentary required: True.",FAIL,Abstention correctness
+B1,P2402-1,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,,True,,False,1.08,549,,,"Revenue up $900K (+6.0%) due to price increases, with no volume or mix changes.  
+
+*Cause: The full variance stems from a positive price effect of $900K, indicating higher pricing across products, likely driven by strategic pricing adjustments or market demand. No volume or mix shifts suggest demand stability, with pricing as the primary driver.*",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B1,P2402-2,immaterial,2024-02,6200 · Marketing Operating Expense,-4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2402-3,evidence_less,2024-02,5000 · Cost of Goods Sold,745000,True,,,True,,False,0.54,507,,,Actual COGS $745K higher (7.9%) than budget—likely due to rising raw material costs and increased production inefficiencies.,FAIL,Abstention correctness
+B1,P2405-1,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,,True,,False,0.57,507,,,Actual R&D expense $281K (+41.6%) vs budget — a significant variance likely caused by unplanned lab expansion or increased personnel costs.,numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B1,P2405-2,immaterial,2024-05,6200 · Marketing Operating Expense,14000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2405-3,evidence_less,2024-05,6100 · Legal & Professional,371000,True,,,False,"[('usd', 1000000.0)]",False,0.66,507,,,"Actual $1.0M vs. Budget $633K (+$371K, +58.6%) — likely caused by increased legal fees from new compliance initiatives and litigation costs.",FAIL,Abstention correctness
+B1,P2409-1,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,False,"[('usd', 3000000.0)]",False,0.71,509,,,"Actual $3.0M vs. Budget $633K (+$2.4M, +379.1%); likely cause: one-time legal fees or audit costs not accounted for in budget.",FAIL,Abstention correctness
+B1,P2409-2,immaterial,2024-09,6200 · Marketing Operating Expense,5000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2409-3,evidence_less,2024-09,6300 · Distribution Expense,345000,True,,,True,,False,0.54,508,,,Distribution expenses $345K (+32.9%) vs budget—likely due to higher freight costs and increased logistics demand in Q3.,FAIL,Abstention correctness
+B1,P2412-1,documented,2024-12,4000 · Revenue,-405000,True,D16,,True,,False,0.68,549,,,"Revenue $405K below budget (-9.0%), driven by price reductions.  
+Most likely cause: Significant price cuts across EMEA products to boost volume, reducing revenue despite no volume or mix changes.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B1,P2412-2,immaterial,2024-12,6200 · Marketing Operating Expense,9000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2503-1,covenant,2025-03,7000 · Interest Expense,104000,True,D17,,True,,False,0.55,599,,,Interest Expense $104K (+10.0%) vs budget—driven by higher borrowing costs due to elevated loan rates in the period.,numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B1,P2503-2,immaterial,2025-03,6200 · Marketing Operating Expense,2000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2506-1,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,False,0.51,508,,,$680K (7.3%) below budget – likely due to lower-than-expected raw material prices and reduced production volumes.,FAIL,Abstention correctness
+B1,P2506-2,immaterial,2025-06,6500 · R&D Operating Expense,6000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2508-1,documented,2025-08,4000 · Revenue,620000,True,D18,,True,,False,0.58,562,,,"Revenue up $620K (+27.6%) due to higher aftermarket parts volume—driven by strong sales volume, not price or mix changes.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B1,P2508-2,immaterial,2025-08,6200 · Marketing Operating Expense,7000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2510-1,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,,False,"[('usd', 18000000.0)]",False,0.6,509,,,"Actual COGS $18M (+19.2%) vs budget — $1.8M over budget, driven by higher raw material costs and supply chain delays.",numeric=FAIL,Retrieval hit @3 / Numeric fidelity
+B1,P2510-2,immaterial,2025-10,6200 · Marketing Operating Expense,4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B1,P2510-3,evidence_less,2025-10,6100 · Legal & Professional,517000,True,,,True,,False,0.69,507,,,"Actual $1.15M vs. Budget $633K (+$517K, +81.7%) — likely caused by unplanned legal fees from major litigation or compliance initiatives.",FAIL,Abstention correctness
+B2,P2402-1,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,,True,,False,3.12,10153,,,"Revenue variance: USD 900,000 (6.0%) [n]. Driven by approved 6% list-price increase effective February 2024 [n]. Price effect: USD 900,000 [n]. Volume and mix effects: zero [n]. Materiality thresholds met [n]. No supporting evidence for other drivers; variance unexplained beyond price effect [n]. Escalate to cost-centre owner if additional drivers emerge [n].",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B2,P2402-2,immaterial,2024-02,6200 · Marketing Operating Expense,-4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2402-3,evidence_less,2024-02,5000 · Cost of Goods Sold,745000,True,,,False,"[('pct', 18.0)]",False,2.75,10111,,,"Cost of Goods Sold variance: USD 745,000 (7.9%) against budget [n]. Driven by 18% steel index rise impacting Drive Assemblies unit cost [10][11]. Supported by Procurement memo [10]. No other documented drivers. Variance exceeds materiality thresholds [1]. Commentary required due to materiality [1].",FAIL,Abstention correctness
+B2,P2405-1,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,,True,,False,2.94,10111,,,"R&D Operating Expense variance: USD 281,000 (41.6%) above budget [n]. Driver: Headcount ramp in CC-5100 from 12 to 25, with May cohort onboarding [n]. Supported by R&D Programme Office memo [n]. No other documented causes. Variance meets materiality threshold (USD 250,000 and 5% of budget) [n].",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B2,P2405-2,immaterial,2024-05,6200 · Marketing Operating Expense,14000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2405-3,evidence_less,2024-05,6100 · Legal & Professional,371000,True,,,False,"[('pct', 18.0), ('usd', 495000.0)]",False,3.16,10111,,,"Variance: USD 371,000 (58.6%) [n]. Materiality thresholds met: USD 250,000 and 5% of budget [n]. Cause: Steel index rise of 18% increases Drive Assemblies cost of goods sold by USD 495,000 [n]. Supported by D11 §2 and D20 COGS Commentary [n]. No other documented drivers. Escalate to cost-centre owner per D03 §5.1.",FAIL,Abstention correctness
+B2,P2409-1,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,False,"[('pct', 18.0), ('usd', 495000.0)]",False,3.61,10113,,,"Actual: $3,033,000 | Budget: $633,000 | Variance: +$2,400,000 (+379.1%) [n].  
+Materiality thresholds met: variance exceeds $250,000 and 5% of budget [n].  
+Primary driver: Steel index rise of 18% increasing Drive Assemblies COGS by $495,000 [n].  
+Supporting evidence: D11 §2, D20 COGS Commentary [n].  
+No other documented drivers. Variance unexplained beyond steel index impact. Escalate to cost-centre owner [n].",FAIL,Abstention correctness
+B2,P2409-2,immaterial,2024-09,6200 · Marketing Operating Expense,5000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2409-3,evidence_less,2024-09,6300 · Distribution Expense,345000,True,,,False,"[('pct', 18.0), ('usd', 495000.0)]",False,3.12,10112,,,"Distribution Expense variance: USD 345,000 (32.9%) against budget [n]. Materiality thresholds met: USD 250,000 and 5% of budget [1]. Driver: Steel index rise of 18% impacting Drive Assemblies cost of goods sold, increasing unit cost by USD 495,000 [11]. Supported by Procurement memo [10]. No other documented causes. Escalate to cost-centre owner per §5.1 [3].",FAIL,Abstention correctness
+B2,P2412-1,documented,2024-12,4000 · Revenue,-405000,True,D16,,True,,False,2.73,10153,,,"Revenue variance: USD -405,000 (-9.0%), meeting materiality thresholds [1]. Driver: 9% euro weakening reduces EMEA revenue by USD 405,000 vs. budget [20]. No other documented causes. Commentary supported by source [20]. Escalation to cost-centre owner if further evidence required [3].",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B2,P2412-2,immaterial,2024-12,6200 · Marketing Operating Expense,9000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2503-1,covenant,2025-03,7000 · Interest Expense,104000,True,D17,,True,,False,3.12,10203,,,"Interest expense variance is USD 104,000 (10.0%) against budget [n]. The increase is driven by a USD 104,000 interest expense uplift from the March revolver draw, which elevated net leverage to 3.4x, triggering a 100 bps margin step under the pricing grid [n]. This movement meets the covenant disclosure trigger of 0.25x, requiring commentary [n]. No other driver is supported.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B2,P2503-2,immaterial,2025-03,6200 · Marketing Operating Expense,2000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2506-1,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,False,"[('pct', 18.0), ('usd', 495000.0)]",False,2.84,10112,,,"Cost of Goods Sold variance: USD (680,000) [-7.3%], material by dollar and percentage thresholds [1]. Driver: Steel index rise (18%) increasing Drive Assemblies unit cost by USD 495,000 [11]. Supported by Procurement memo [10]. Escalate to cost-centre owner per §5.1 [3].",FAIL,Abstention correctness
+B2,P2506-2,immaterial,2025-06,6500 · R&D Operating Expense,6000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2508-1,documented,2025-08,4000 · Revenue,620000,True,D18,,True,,False,2.83,10166,,,"Revenue variance: USD 620,000 (27.6%) [n]. Driven by Aftermarket Parts launch, which generated USD 620,000 in revenue in August [n]. No other driver supported. Variance exceeds dollar materiality threshold (USD 500,000) [n]. Commentary required due to materiality [n].",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B2,P2508-2,immaterial,2025-08,6200 · Marketing Operating Expense,7000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2510-1,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,,True,,False,2.82,10113,,,"Cost of Goods Sold variance: USD 1,800,000 (19.2%) [n]. Driven by a USD 1,800,000 inventory write-down of slow-moving Drive Assemblies and Aftermarket stock above net realisable value [n]. Supported by Operations memo D19 §1. Materiality thresholds met [n]. No other drivers identified.",numeric=PASS,Retrieval hit @3 / Numeric fidelity
+B2,P2510-2,immaterial,2025-10,6200 · Marketing Operating Expense,4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B2,P2510-3,evidence_less,2025-10,6100 · Legal & Professional,517000,True,,,False,"[('usd', 1800000.0)]",False,3.03,10111,,,"Variance: USD 517,000 (81.7%) [n]. Materiality thresholds met: USD 500,000 absolute variance [n]. Cause: Write-down of slow-moving inventory of USD 1,800,000 in cost of goods sold [n]. Supported by D19 §1 [n]. No other documented drivers. Escalate to cost-centre owner per D01 §5.1 [n].",FAIL,Abstention correctness
+B3,P2402-1,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,True,True,,False,1.12,3286,,,"Headline: $900,000 (+6.0%) variance due to favourable price effect.  
+Cause: supported [5]  
+Accountable owner: Cost-centre owner of CC-2100  
+Citations: [5] (price effect), [1] (materiality met: $900K > $500K)","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B3,P2402-2,immaterial,2024-02,6200 · Marketing Operating Expense,-4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2402-3,evidence_less,2024-02,5000 · Cost of Goods Sold,745000,True,,,True,,True,1.08,3179,,,"Headline: $745,000 (+7.9%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citations: [n] variance figures; [n] materiality rule (D01 §4.2); no driver evidence supports cause.",PASS,Abstention correctness
+B3,P2405-1,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,True,True,,False,1.09,3101,,,"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
+Cause: supported by D15 §1 (headcount ramp in CC-5100) [n]  
+Accountable owner: K. Okafor, R&D Finance Lead [n]  
+Citations: [n]3, [n]2","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B3,P2405-2,immaterial,2024-05,6200 · Marketing Operating Expense,14000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2405-3,evidence_less,2024-05,6100 · Legal & Professional,371000,True,,,True,,True,1.38,3013,,,"Headline: $371,000 (+58.6%) variance in Legal & Professional (CC-6100).  
+Cause: unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: Policy D04; Driver Evidence absent]  
+[Materiality: exceeds dollar threshold ($250,000) and pct threshold (5.0%); Policy D01 §4.3 applies only if covenant-sensitive—no such metric cited.]",PASS,Abstention correctness
+B3,P2409-1,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,True,,True,1.63,3015,,,"Headline: $2,400,000 variance (+379.1%), unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: 3] does not support cause; [4][5] pertain to other cost centres.  
+[Policy D01 §4.3] does not trigger due to no covenant metric movement.  
+[Materiality] thresholds not met: $2.4M > $500K (dollar alone), but no driver evidence.  
+Cause: unsupported [n]. Escalate to cost-centre owner.",PASS,Abstention correctness
+B3,P2409-2,immaterial,2024-09,6200 · Marketing Operating Expense,5000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2409-3,evidence_less,2024-09,6300 · Distribution Expense,345000,True,,,False,"[('usd', 1000000.0)]",True,1.4,3246,,,"Headline: $345,000 (+32.9%) variance in Distribution Expense.  
+Cause: unsupported  
+Accountable owner: cost-centre owner (CC-3100)  
+[Citation: Driver Evidence [3], [4], [5] do not support a cause for Distribution Expense variance.]  
+[Policy Clause: D01 §4.2 — variance exceeds materiality threshold ($250,000 and 5% of $1M), thus commentary required.]",PASS,Abstention correctness
+B3,P2412-1,documented,2024-12,4000 · Revenue,-405000,True,D16,True,True,,False,1.15,3345,,,"Headline: $405,000 (-9.0%) variance due to 9% adverse rate movement [5].  
+Cause: supported [5].  
+Accountable owner: EMEA Revenue Owner.  
+Citations: [5] (rate movement), [1] (materiality met: $405K ≥ $250K and 9.0% ≥ 5.0%).","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B3,P2412-2,immaterial,2024-12,6200 · Marketing Operating Expense,9000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2503-1,covenant,2025-03,7000 · Interest Expense,104000,True,D17,True,True,,False,0.89,3438,,,"Headline: $104,000 (+10.0%) variance in Interest Expense  
+Cause: Supported by D17 §3 (interest impact from draw)  
+Accountable owner: M. Duarte (Group Financial Controller)  
+Citations: [n]4, [n]2","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B3,P2503-2,immaterial,2025-03,6200 · Marketing Operating Expense,2000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2506-1,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,True,1.29,3199,,,"Headline: $680K (7.3%) variance against budget.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citation: [1] D01 §4.2 (materiality met: $680K > $250K and 7.3% > 5%) — variance exceeds materiality thresholds; no driver evidence supports cause. Escalation required.",PASS,Abstention correctness
+B3,P2506-2,immaterial,2025-06,6500 · R&D Operating Expense,6000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2508-1,documented,2025-08,4000 · Revenue,620000,True,D18,False,True,,True,1.07,3398,,,"Headline: $620K (+27.6%) variance in Aftermarket Parts revenue.  
+Cause: unsupported  
+Accountable owner: Cost-centre owner (CC-2100)  
+Citation: [2] D03 §2; no DRIVER EVIDENCE supports price, volume, or mix effect for this account. Escalation required per Rule 2.","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B3,P2508-2,immaterial,2025-08,6200 · Marketing Operating Expense,7000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2510-1,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,False,True,,True,1.15,3200,,,"Headline: $1,800,000 (+19.2%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: Not assigned (escalation required)  
+Citation: [n] — variance exceeds materiality thresholds per POLICY [1] (a) and (b); no DRIVER EVIDENCE supports cause. Escalation to cost-centre owner per RULE 2.","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B3,P2510-2,immaterial,2025-10,6200 · Marketing Operating Expense,4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B3,P2510-3,evidence_less,2025-10,6100 · Legal & Professional,517000,True,,,True,,True,1.72,3013,,,"Headline: $517,000 variance (81.7% over budget) [n]  
+Cause: unsupported [n]  
+Accountable owner: M. Duarte, Group Financial Controller [n]  
+Citation: [1] (covenant-sensitive), [2] (ownership), [3]–[5] (no driver evidence)  
+
+*Note: No DRIVER EVIDENCE supports a cause for Legal & Professional variance. Materiality thresholds exceeded [dollar_alone_threshold: 500,000] and [pct_threshold_usd: 31,650], per POLICY [4.2].*",PASS,Abstention correctness
+B4,P2402-1,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,True,True,,False,1.38,3286,True,sufficient (D14 at 0.322),"Headline: $900,000 (+6.0%) variance due to favourable price effect.  
+Cause: supported [5]  
+Accountable owner: Cost-centre owner of CC-2100  
+Citations: [5] (price effect), [1] (materiality met: $900K > $500K)","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B4,P2402-2,immaterial,2024-02,6200 · Marketing Operating Expense,-4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2402-3,evidence_less,2024-02,5000 · Cost of Goods Sold,745000,True,,,True,,True,1.41,3179,True,sufficient (D14 at 0.358),"Headline: $745,000 (+7.9%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citations: [n] variance figures; [n] materiality rule (D01 §4.2); no driver evidence supports cause.",PASS,Abstention correctness
+B4,P2405-1,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,True,True,,False,1.06,3101,True,sufficient (D15 at 0.395),"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
+Cause: supported by D15 §1 (headcount ramp in CC-5100) [n]  
+Accountable owner: K. Okafor, R&D Finance Lead [n]  
+Citations: [n]3, [n]2","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B4,P2405-2,immaterial,2024-05,6200 · Marketing Operating Expense,14000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2405-3,evidence_less,2024-05,6100 · Legal & Professional,371000,True,,,True,,True,0.0,0,False,no retrieved driver matches the row's entity scope,"6100 · Legal & Professional variance $371,000 (+58.6%) in 2024-05 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — General and Administrative.",PASS,Abstention correctness
+B4,P2409-1,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,True,,True,0.0,0,False,no retrieved driver matches the row's entity scope,"6100 · Legal & Professional variance $2,400,000 (+379.1%) in 2024-09 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — General and Administrative.",PASS,Abstention correctness
+B4,P2409-2,immaterial,2024-09,6200 · Marketing Operating Expense,5000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2409-3,evidence_less,2024-09,6300 · Distribution Expense,345000,True,,,True,,True,0.0,0,False,no retrieved driver matches the row's entity scope,"6300 · Distribution Expense variance $345,000 (+32.9%) in 2024-09 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner.",PASS,Abstention correctness
+B4,P2412-1,documented,2024-12,4000 · Revenue,-405000,True,D16,True,True,,False,1.5,3345,True,sufficient (D16 at 0.378),"Headline: $405,000 (-9.0%) variance due to 9% adverse rate movement [5].  
+Cause: supported [5].  
+Accountable owner: EMEA Revenue Owner.  
+Citations: [5] (rate movement), [1] (materiality met: $405K ≥ $250K and 9.0% ≥ 5.0%).","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B4,P2412-2,immaterial,2024-12,6200 · Marketing Operating Expense,9000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2503-1,covenant,2025-03,7000 · Interest Expense,104000,True,D17,True,True,,False,0.85,3438,True,sufficient (D17 at 0.397),"Headline: $104,000 (+10.0%) variance in Interest Expense  
+Cause: Supported by D17 §3 (interest impact from draw)  
+Accountable owner: M. Duarte (Group Financial Controller)  
+Citations: [n]4, [n]2","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B4,P2503-2,immaterial,2025-03,6200 · Marketing Operating Expense,2000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2506-1,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,True,0.0,0,False,no retrieved driver matches the row's entity scope,"5000 · Cost of Goods Sold variance $680,000 (-7.3%) in 2025-06 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — Sales and Commercial.",PASS,Abstention correctness
+B4,P2506-2,immaterial,2025-06,6500 · R&D Operating Expense,6000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2508-1,documented,2025-08,4000 · Revenue,620000,True,D18,False,True,,True,0.0,0,False,no retrieved driver matches the row's entity scope,"4000 · Revenue variance $620,000 (+27.6%) in 2025-08 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner.","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B4,P2508-2,immaterial,2025-08,6200 · Marketing Operating Expense,7000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2510-1,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,False,True,,True,0.0,0,False,no retrieved driver matches the row's entity scope,"5000 · Cost of Goods Sold variance $1,800,000 (+19.2%) in 2025-10 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — Sales and Commercial.","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity
+B4,P2510-2,immaterial,2025-10,6200 · Marketing Operating Expense,4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance
+B4,P2510-3,evidence_less,2025-10,6100 · Legal & Professional,517000,True,,,True,,True,0.0,0,False,no retrieved driver matches the row's entity scope,"6100 · Legal & Professional variance $517,000 (+81.7%) in 2025-10 [1]. Cause: unsupported, no admissible driver evidence retrieved (no retrieved driver matches the row's entity scope). Escalate to the cost-centre owner. Owner per D04 Register — General and Administrative.",PASS,Abstention correctness

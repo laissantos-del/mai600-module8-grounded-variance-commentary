@@ -1,0 +1,27 @@
+case_id,period,split,stratum,account,cost_centre,region,product_line,actual,budget,variance_usd,variance_pct,commentary_required,materiality_trigger,price_effect,volume_effect,mix_effect,covenant_headroom,gold_doc,true_cause
+P2306-1,2023-06,config,documented,5000 · Cost of Goods Sold,CC-3100,North America,Drive Assemblies,5495000,5000000,495000,9.9,True,dollar_and_pct,,,,,D11,Steel input-cost index rose 18%.
+P2306-2,2023-06,config,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,386000,375000,11000,2.9,False,none,,,,,,Routine timing noise.
+P2306-3,2023-06,config,evidence_less,6100 · Legal & Professional,CC-6100,Group,All,1268000,633000,635000,100.3,True,dollar_alone,,,,,,"Advisory fees on a supplier dispute, undocumented."
+P2311-1,2023-11,config,documented,4000 · Revenue,CC-2100,North America,Drive Assemblies,2632000,3375000,-743000,-22.0,True,dollar_alone,0.0,-743000.0,0.0,,D12,Tier-1 OEM contract non-renewal.
+P2311-2,2023-11,config,immaterial,6500 · R&D Operating Expense,CC-5100,Group,All,689000,675000,14000,2.1,False,none,,,,,,Minor timing on contractor invoices.
+P2311-3,2023-11,config,evidence_less,6300 · Distribution Expense,CC-3100,Group,All,1401000,1050000,351000,33.4,True,dollar_and_pct,,,,,,"Carrier surcharge, undocumented."
+P2402-1,2024-02,holdout,version_sensitive,4000 · Revenue,CC-2100,Group,All,15900000,15000000,900000,6.0,True,dollar_alone,900000.0,0.0,0.0,,D14,"Approved 6% price increase, v2.0 supersedes a proposed 8%."
+P2402-2,2024-02,holdout,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,371000,375000,-4000,-1.1,False,none,,,,,,Immaterial underspend.
+P2402-3,2024-02,holdout,evidence_less,5000 · Cost of Goods Sold,CC-3100,Group,All,10120000,9375000,745000,7.9,True,dollar_alone,,,,,,"Supplier mix shift, undocumented."
+P2405-1,2024-05,holdout,documented,6500 · R&D Operating Expense,CC-5100,Group,All,956000,675000,281000,41.6,True,dollar_and_pct,,,,,D15,R&D headcount ramp from 12 to 25.
+P2405-2,2024-05,holdout,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,389000,375000,14000,3.7,False,none,,,,,,Routine noise.
+P2405-3,2024-05,holdout,evidence_less,6100 · Legal & Professional,CC-6100,Group,All,1004000,633000,371000,58.6,True,dollar_and_pct,,,,,,"Patent filing fees, undocumented."
+P2409-1,2024-09,holdout,evidence_less,6100 · Legal & Professional,CC-6100,Group,All,3033000,633000,2400000,379.1,True,dollar_alone,,,,,,"One-off legal accrual, undocumented."
+P2409-2,2024-09,holdout,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,380000,375000,5000,1.3,False,none,,,,,,Routine noise.
+P2409-3,2024-09,holdout,evidence_less,6300 · Distribution Expense,CC-3100,Group,All,1395000,1050000,345000,32.9,True,dollar_and_pct,,,,,,"Fuel surcharge, undocumented."
+P2412-1,2024-12,holdout,documented,4000 · Revenue,CC-2100,EMEA,All,4095000,4500000,-405000,-9.0,True,dollar_and_pct,-405000.0,0.0,0.0,,D16,"EUR weakened 9%, reducing translated EMEA revenue."
+P2412-2,2024-12,holdout,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,384000,375000,9000,2.4,False,none,,,,,,Routine noise.
+P2503-1,2025-03,holdout,covenant,7000 · Interest Expense,CC-6100,Group,All,1146000,1042000,104000,10.0,True,covenant,,,,0.1,D17,Revolver draw stepped the pricing grid up 100bps.
+P2503-2,2025-03,holdout,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,377000,375000,2000,0.5,False,none,,,,,,Routine noise.
+P2506-1,2025-06,holdout,evidence_less,5000 · Cost of Goods Sold,CC-3100,Group,All,8695000,9375000,-680000,-7.3,True,dollar_alone,,,,,,"Freight normalisation, undocumented."
+P2506-2,2025-06,holdout,immaterial,6500 · R&D Operating Expense,CC-5100,Group,All,681000,675000,6000,0.9,False,none,,,,,,Routine noise.
+P2508-1,2025-08,holdout,documented,4000 · Revenue,CC-2100,Group,Aftermarket Parts,2870000,2250000,620000,27.6,True,dollar_alone,0.0,620000.0,0.0,,D18,"Aftermarket range launch, per a launch brief that predates a scope change."
+P2508-2,2025-08,holdout,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,382000,375000,7000,1.9,False,none,,,,,,Routine noise.
+P2510-1,2025-10,holdout,documented,5000 · Cost of Goods Sold,CC-3100,Group,All,11175000,9375000,1800000,19.2,True,dollar_alone,,,,,D19,Slow-moving inventory write-down of $1.8M.
+P2510-2,2025-10,holdout,immaterial,6200 · Marketing Operating Expense,CC-2200,Group,All,379000,375000,4000,1.1,False,none,,,,,,Routine noise.
+P2510-3,2025-10,holdout,evidence_less,6100 · Legal & Professional,CC-6100,Group,All,1150000,633000,517000,81.7,True,dollar_alone,,,,,,"Advisory fees, undocumented."

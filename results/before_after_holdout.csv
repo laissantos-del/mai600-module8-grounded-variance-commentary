@@ -1,0 +1,124 @@
+arm,case_id,stratum,period,account,variance_usd,commentary_required,gold_doc,retrieval_hit,numeric_fidelity,unmatched_figures,abstained,response_time_s,prompt_chars,gate_passed,gate_reason,answer,outcome,metric,config
+B3,P2402-1,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,False,True,,True,2.94,3351,,,"Headline: $900,000 (+6.0%) revenue variance [n]  
+Cause: unsupported [n]  
+Accountable owner: cost-centre owner of CC-2100  
+Citations: [1] (materiality met: $900K > $500K), [2] (effect decomposition), [3] (no revenue impact cited for February)","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity,before_module7_config
+B3,P2402-2,immaterial,2024-02,6200 · Marketing Operating Expense,-4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2402-3,evidence_less,2024-02,5000 · Cost of Goods Sold,745000,True,,,True,,True,1.81,3164,,,"Headline: $745,000 (+7.9%) variance in COGS [n]  
+Cause: unsupported [n]  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citations: [3], [4], [5] — no driver evidence links to CC-3100 or current period. Materiality met: $745,000 > $500,000 (Policy D01 §4.2, clause [b]).",PASS,Abstention correctness,before_module7_config
+B3,P2405-1,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,True,True,,False,1.83,3089,,,"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
+Cause: supported by D15 §1 (headcount ramp to 25 in Q2–Q3) [n]  
+Accountable owner: K. Okafor, R&D Finance Lead [n]  
+Citation: [1] D01 §4.2 (materiality met: $281k > $250k and 41.6% > 5%) [n]","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity,before_module7_config
+B3,P2405-2,immaterial,2024-05,6200 · Marketing Operating Expense,14000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2405-3,evidence_less,2024-05,6100 · Legal & Professional,371000,True,,,True,,True,1.19,3013,,,"Headline: $371,000 (+58.6%) variance in Legal & Professional (CC-6100).  
+Cause: unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: D04; D01 §4.3]",PASS,Abstention correctness,before_module7_config
+B3,P2409-1,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,True,,True,1.91,3015,,,"Headline: $2,400,000 variance (+379.1%), unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: 3] does not support cause; [4][5] pertain to other cost centres.  
+[Policy D01 §4.3] does not trigger due to no covenant metric movement.  
+[Materiality] thresholds not met: $2.4M > $500K (dollar alone), but no driver evidence.  
+Cause: unsupported [n]. Escalate to cost-centre owner.",PASS,Abstention correctness,before_module7_config
+B3,P2409-2,immaterial,2024-09,6200 · Marketing Operating Expense,5000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2409-3,evidence_less,2024-09,6300 · Distribution Expense,345000,True,,,False,"[('usd', 1000000.0)]",True,1.71,3246,,,"Headline: $345,000 (+32.9%) variance in Distribution Expense.  
+Cause: unsupported  
+Accountable owner: cost-centre owner (CC-3100)  
+[Citation: Driver Evidence [3], [4], [5] do not support a cause for Distribution Expense variance.]  
+[Policy Clause: D01 §4.2 — variance exceeds materiality threshold ($250,000 and 5% of $1M), thus commentary required.]",PASS,Abstention correctness,before_module7_config
+B3,P2412-1,documented,2024-12,4000 · Revenue,-405000,True,D16,False,True,,True,1.77,3275,,,"Headline: $405,000 (-9.0%) variance in EMEA revenue.  
+Cause: unsupported  
+Accountable owner: Cost-centre owner (CC-2100)  
+Citation: [n] Policy [1] (materiality thresholds met: $405K > $250K and 9.0% > 5.0%) — variance exceeds both dollar and percentage materiality thresholds. No driver evidence supports cause. Escalate to cost-centre owner.","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity,before_module7_config
+B3,P2412-2,immaterial,2024-12,6200 · Marketing Operating Expense,9000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2503-1,covenant,2025-03,7000 · Interest Expense,104000,True,D17,True,True,,False,1.34,3426,,,"Headline: $104,000 (+10.0%) variance in Interest Expense.  
+Cause: Supported by D17 §3 (interest impact from margin step-up).  
+Accountable owner: M. Duarte (Group Financial Controller).  
+Citations: [n]1, [n]4, [n]2.","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity,before_module7_config
+B3,P2503-2,immaterial,2025-03,6200 · Marketing Operating Expense,2000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2506-1,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,True,1.72,3187,,,"Headline: $680,000 (7.3%) variance against budget — unsupported.  
+Accountable owner: Not assigned.  
+Citation: [n] — No DRIVER EVIDENCE supports a cause for COGS variance in CC-3100. Policy [1] triggers commentary due to variance exceeding $250,000 and 5% of budget ($468,750), but no driver evidence exists. Escalate to cost-centre owner.",PASS,Abstention correctness,before_module7_config
+B3,P2506-2,immaterial,2025-06,6500 · R&D Operating Expense,6000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2508-1,documented,2025-08,4000 · Revenue,620000,True,D18,False,True,,True,1.41,3288,,,"Headline: $620,000 (+27.6%) variance in Aftermarket Parts revenue.  
+Cause: unsupported  
+Accountable owner: Cost Centre Owner, CC-2100  
+[Citation: Policy D01 §4.2; Driver Evidence [3], [4], [5] — none support price, volume, or mix cause]","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity,before_module7_config
+B3,P2508-2,immaterial,2025-08,6200 · Marketing Operating Expense,7000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2510-1,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,False,True,,True,1.88,3188,,,"Headline: $1,800,000 (+19.2%) variance in COGS.  
+Cause: unsupported.  
+Accountable owner: CC-3100 cost-centre owner.  
+[Citation: [3], [5] — no direct link to CC-3100 or COGS overall; driver evidence only references Drive Assemblies, not full product line or cost-centre.]  
+[Policy: D01 §4.2 — variance exceeds materiality thresholds ($1.8M > $500K), thus commentary required.]","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity,before_module7_config
+B3,P2510-2,immaterial,2025-10,6200 · Marketing Operating Expense,4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,before_module7_config
+B3,P2510-3,evidence_less,2025-10,6100 · Legal & Professional,517000,True,,,True,,True,2.06,3013,,,"Headline: $517,000 variance (81.7% over budget) [n]  
+Cause: unsupported [n]  
+Accountable owner: M. Duarte, Group Financial Controller [n]  
+Citation: [1] (covenant-sensitive), [2] (ownership), [3]–[5] (no driver evidence)  
+
+*Note: No DRIVER EVIDENCE supports a cause for Legal & Professional variance. Materiality thresholds exceeded [dollar_alone_threshold: 500,000] and [pct_threshold_usd: 31,650], per POLICY [4.2].*",PASS,Abstention correctness,before_module7_config
+B3,P2402-1,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,True,True,,False,1.14,3286,,,"Headline: $900,000 (+6.0%) variance due to favourable price effect.  
+Cause: supported [5]  
+Accountable owner: Cost-centre owner of CC-2100  
+Citations: [5] (price effect), [1] (materiality met: $900K > $500K)","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity,after_module8_config
+B3,P2402-2,immaterial,2024-02,6200 · Marketing Operating Expense,-4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2402-3,evidence_less,2024-02,5000 · Cost of Goods Sold,745000,True,,,True,,True,1.21,3179,,,"Headline: $745,000 (+7.9%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citations: [n] variance figures; [n] materiality rule (D01 §4.2); no driver evidence supports cause.",PASS,Abstention correctness,after_module8_config
+B3,P2405-1,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,True,True,,False,1.13,3101,,,"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
+Cause: supported by D15 §1 (headcount ramp in CC-5100) [n]  
+Accountable owner: K. Okafor, R&D Finance Lead [n]  
+Citations: [n]3, [n]2","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity,after_module8_config
+B3,P2405-2,immaterial,2024-05,6200 · Marketing Operating Expense,14000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2405-3,evidence_less,2024-05,6100 · Legal & Professional,371000,True,,,True,,True,1.35,3013,,,"Headline: $371,000 (+58.6%) variance in Legal & Professional (CC-6100).  
+Cause: unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: Policy D04; Driver Evidence absent]  
+[Materiality: exceeds dollar threshold ($250,000) and pct threshold (5.0%); Policy D01 §4.3 applies only if covenant-sensitive—no such metric cited.]",PASS,Abstention correctness,after_module8_config
+B3,P2409-1,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,True,,True,1.61,3015,,,"Headline: $2,400,000 variance (+379.1%), unsupported.  
+Accountable owner: M. Duarte, Group Financial Controller.  
+[Citation: 3] does not support cause; [4][5] pertain to other cost centres.  
+[Policy D01 §4.3] does not trigger due to no covenant metric movement.  
+[Materiality] thresholds not met: $2.4M > $500K (dollar alone), but no driver evidence.  
+Cause: unsupported [n]. Escalate to cost-centre owner.",PASS,Abstention correctness,after_module8_config
+B3,P2409-2,immaterial,2024-09,6200 · Marketing Operating Expense,5000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2409-3,evidence_less,2024-09,6300 · Distribution Expense,345000,True,,,False,"[('usd', 1000000.0)]",True,1.36,3246,,,"Headline: $345,000 (+32.9%) variance in Distribution Expense.  
+Cause: unsupported  
+Accountable owner: cost-centre owner (CC-3100)  
+[Citation: Driver Evidence [3], [4], [5] do not support a cause for Distribution Expense variance.]  
+[Policy Clause: D01 §4.2 — variance exceeds materiality threshold ($250,000 and 5% of $1M), thus commentary required.]",PASS,Abstention correctness,after_module8_config
+B3,P2412-1,documented,2024-12,4000 · Revenue,-405000,True,D16,True,True,,False,1.23,3345,,,"Headline: $405,000 (-9.0%) variance due to 9% adverse rate movement [5].  
+Cause: supported [5].  
+Accountable owner: EMEA Revenue Owner.  
+Citations: [5] (rate movement), [1] (materiality met: $405K ≥ $250K and 9.0% ≥ 5.0%).","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity,after_module8_config
+B3,P2412-2,immaterial,2024-12,6200 · Marketing Operating Expense,9000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2503-1,covenant,2025-03,7000 · Interest Expense,104000,True,D17,True,True,,False,0.93,3438,,,"Headline: $104,000 (+10.0%) variance in Interest Expense  
+Cause: Supported by D17 §3 (interest impact from draw)  
+Accountable owner: M. Duarte (Group Financial Controller)  
+Citations: [n]4, [n]2","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity,after_module8_config
+B3,P2503-2,immaterial,2025-03,6200 · Marketing Operating Expense,2000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2506-1,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,True,1.46,3199,,,"Headline: $680K (7.3%) variance against budget.  
+Cause: unsupported  
+Accountable owner: CC-3100 cost-centre owner (escalate per policy)  
+Citation: [1] D01 §4.2 (materiality met: $680K > $250K and 7.3% > 5%) — variance exceeds materiality thresholds; no driver evidence supports cause. Escalation required.",PASS,Abstention correctness,after_module8_config
+B3,P2506-2,immaterial,2025-06,6500 · R&D Operating Expense,6000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2508-1,documented,2025-08,4000 · Revenue,620000,True,D18,False,True,,True,1.17,3398,,,"Headline: $620K (+27.6%) variance in Aftermarket Parts revenue.  
+Cause: unsupported  
+Accountable owner: Cost-centre owner (CC-2100)  
+Citation: [2] D03 §2; no DRIVER EVIDENCE supports price, volume, or mix effect for this account. Escalation required per Rule 2.","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity,after_module8_config
+B3,P2508-2,immaterial,2025-08,6200 · Marketing Operating Expense,7000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2510-1,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,False,True,,True,1.36,3200,,,"Headline: $1,800,000 (+19.2%) variance in Cost of Goods Sold.  
+Cause: unsupported  
+Accountable owner: Not assigned (escalation required)  
+Citation: [n] — variance exceeds materiality thresholds per POLICY [1] (a) and (b); no DRIVER EVIDENCE supports cause. Escalation to cost-centre owner per RULE 2.","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity,after_module8_config
+B3,P2510-2,immaterial,2025-10,6200 · Marketing Operating Expense,4000,False,,,True,,False,0.0,0,,,(no commentary produced; immaterial),PASS,Policy compliance,after_module8_config
+B3,P2510-3,evidence_less,2025-10,6100 · Legal & Professional,517000,True,,,True,,True,1.73,3013,,,"Headline: $517,000 variance (81.7% over budget) [n]  
+Cause: unsupported [n]  
+Accountable owner: M. Duarte, Group Financial Controller [n]  
+Citation: [1] (covenant-sensitive), [2] (ownership), [3]–[5] (no driver evidence)  
+
+*Note: No DRIVER EVIDENCE supports a cause for Legal & Professional variance. Materiality thresholds exceeded [dollar_alone_threshold: 500,000] and [pct_threshold_usd: 31,650], per POLICY [4.2].*",PASS,Abstention correctness,after_module8_config

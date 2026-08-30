@@ -1,0 +1,482 @@
+[
+  {
+    "doc_id": "D01",
+    "doc_title": "Variance Commentary Policy",
+    "doc_type": "policy",
+    "category": "rules",
+    "version": "v2.0",
+    "published_date": "2022-12-15",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "supersedes": "D01-v1",
+    "superseded_by": null,
+    "owner": "Group FP&A",
+    "entity_scope": [
+      "All"
+    ],
+    "topic": [
+      "materiality",
+      "commentary",
+      "close"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§4.2 Materiality Thresholds",
+        "text": "Management commentary is required for a budget variance when EITHER of the following is met, measured at account and cost-centre level: (a) the absolute variance is at least USD 250,000 AND at least 5% of the budgeted amount; OR (b) the absolute variance is at least USD 500,000 regardless of percentage. Variances that meet neither condition are immaterial and must NOT receive commentary; commentary on an immaterial line is a reporting exception."
+      },
+      {
+        "section": "§4.3 Covenant-Sensitive Disclosure",
+        "text": "Irrespective of the dollar thresholds in §4.2, commentary is required for any movement that brings a lending-covenant metric within 0.25x of its limit. Covenant matters are cross-referenced to the Covenant Compliance and Disclosure Policy."
+      },
+      {
+        "section": "§5.1 Evidence and Attribution",
+        "text": "Every stated cause of a variance must be supported by an approved source document (a driver memo, an operational report, or a treasury note). Where no supporting evidence is available, commentary must state that the variance is unexplained and escalate to the cost-centre owner. Analysts must not attribute a cause that is not documented."
+      }
+    ]
+  },
+  {
+    "doc_id": "D03",
+    "doc_title": "KPI and Metric Definitions Dictionary",
+    "doc_type": "definition",
+    "category": "rules",
+    "version": "v1.4",
+    "published_date": "2023-01-05",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Group FP&A",
+    "entity_scope": [
+      "All"
+    ],
+    "topic": [
+      "definitions",
+      "kpi"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "Gross Margin",
+        "text": "Gross margin is revenue less cost of goods sold, expressed as a percentage of revenue. Cost of goods sold includes direct material, direct labour, and allocated manufacturing overhead."
+      },
+      {
+        "section": "Price, Volume and Mix Effects",
+        "text": "A revenue variance is decomposed into a price effect (change in realised selling price at constant volume and mix), a volume effect (change in units sold at constant price and mix), and a mix effect (change in the composition of products sold). The three effects sum to the total revenue variance."
+      },
+      {
+        "section": "Net Leverage",
+        "text": "Net leverage is net debt divided by trailing twelve-month EBITDA. Net debt is total borrowings less cash and cash equivalents. The lending covenant limits net leverage to 3.5x, tested quarterly."
+      }
+    ]
+  },
+  {
+    "doc_id": "D04",
+    "doc_title": "Cost Centre Owner Register",
+    "doc_type": "register",
+    "category": "rules",
+    "version": "v3.1",
+    "published_date": "2023-01-03",
+    "effective_from": "2023-01-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Group FP&A",
+    "entity_scope": [
+      "All"
+    ],
+    "topic": [
+      "owners",
+      "escalation"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "Register — Sales and Commercial",
+        "text": "CC-2100 Sales is owned by R. Alvares, Commercial Director; escalation to the VP Commercial. CC-2200 Marketing is owned by P. Nunes, Head of Marketing."
+      },
+      {
+        "section": "Register — Operations and Support",
+        "text": "CC-3100 Operations Support is owned by T. Bianchi, Operations Controller; escalation to the COO. CC-5100 R&D is owned by K. Okafor, R&D Finance Lead."
+      },
+      {
+        "section": "Register — General and Administrative",
+        "text": "CC-6100 General and Administrative is owned by M. Duarte, Group Financial Controller; escalation to the CFO. Legal and professional accruals within CC-6100 are reviewed by the Group Financial Controller."
+      }
+    ]
+  },
+  {
+    "doc_id": "D11",
+    "doc_title": "Procurement Memo — Steel Index Movement",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2023-06-12",
+    "effective_from": "2023-06-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Procurement",
+    "entity_scope": [
+      "Drive Assemblies"
+    ],
+    "topic": [
+      "input cost",
+      "steel",
+      "cogs"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Summary",
+        "text": "To: Operations Controller. From: Procurement. Date: 12 June 2023. Subject: Steel index movement and impact on Drive Assemblies. The benchmark steel index rose 18% quarter-on-quarter, effective for June deliveries under our indexed supply contract."
+      },
+      {
+        "section": "§2 Index Movement and Cost Impact",
+        "text": "The 18% increase in the steel index feeds directly into Drive Assemblies unit cost, which carries the highest steel content of our product lines. The estimated effect on June cost of goods sold for Drive Assemblies is an increase of approximately USD 495,000 versus the frozen budget. Precision Fittings and Aftermarket Parts are minimally affected."
+      }
+    ]
+  },
+  {
+    "doc_id": "D12",
+    "doc_title": "Sales Operations Memo — Tier-1 OEM Contract Non-Renewal",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2023-11-08",
+    "effective_from": "2023-11-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Sales Operations",
+    "entity_scope": [
+      "Drive Assemblies",
+      "North America"
+    ],
+    "topic": [
+      "customer loss",
+      "volume",
+      "revenue"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Contract Status",
+        "text": "To: Commercial Director. From: Sales Operations. Date: 8 November 2023. Subject: Non-renewal of Tier-1 OEM supply agreement. Our largest North America Drive Assemblies OEM customer did not renew its annual supply agreement, effective November. This customer represented roughly 22% of North America Drive Assemblies volume."
+      },
+      {
+        "section": "§2 Revenue Impact",
+        "text": "The non-renewal reduces North America Drive Assemblies revenue by an estimated USD 743,000 in November versus budget, driven almost entirely by lost volume rather than price. Recovery actions with two replacement accounts are in progress but will not offset November."
+      }
+    ]
+  },
+  {
+    "doc_id": "D13",
+    "doc_title": "Pricing Action Memo (v1.0, PROPOSED)",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2024-01-10",
+    "effective_from": "2024-01-10",
+    "effective_to": "2024-01-25",
+    "supersedes": null,
+    "superseded_by": "D14",
+    "owner": "Commercial",
+    "entity_scope": [
+      "All"
+    ],
+    "topic": [
+      "pricing",
+      "revenue",
+      "price effect"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Proposed Increase",
+        "text": "To: Commercial Director. From: Pricing. Date: 10 January 2024. Subject: Proposed FY2024 list-price increase. This memo PROPOSES a list-price increase of 8% across all product lines effective February 2024, pending executive approval. Figures are indicative and subject to revision."
+      }
+    ]
+  },
+  {
+    "doc_id": "D14",
+    "doc_title": "Pricing Action Memo (v2.0, APPROVED)",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v2.0",
+    "published_date": "2024-01-25",
+    "effective_from": "2024-02-01",
+    "effective_to": null,
+    "supersedes": "D13",
+    "superseded_by": null,
+    "owner": "Commercial",
+    "entity_scope": [
+      "All"
+    ],
+    "topic": [
+      "pricing",
+      "revenue",
+      "price effect"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Approved Increase",
+        "text": "To: Commercial Director. From: Pricing. Date: 25 January 2024. Subject: APPROVED FY2024 list-price increase. This memo supersedes the proposed 8% increase. The executive committee APPROVED a list-price increase of 6% across all product lines, effective February 2024."
+      },
+      {
+        "section": "§2 Expected Revenue Effect",
+        "text": "At planned volumes, the approved 6% increase raises February revenue by an estimated USD 900,000 versus budget, recognised as a favourable price effect with no volume or mix change."
+      }
+    ]
+  },
+  {
+    "doc_id": "D15",
+    "doc_title": "R&D Headcount Plan FY2024",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2024-05-06",
+    "effective_from": "2024-05-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "R&D Finance",
+    "entity_scope": [
+      "CC-5100"
+    ],
+    "topic": [
+      "headcount",
+      "opex",
+      "hiring"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Plan Overview",
+        "text": "To: R&D Finance Lead. From: R&D Programme Office. Date: 6 May 2024. Subject: R&D headcount ramp for the platform programme. The approved plan expands R&D engineering headcount in CC-5100 from 12 to 25 across the second and third quarters, ahead of the platform launch."
+      },
+      {
+        "section": "§3 Hiring Schedule and Cost",
+        "text": "Hiring begins in May 2024. Because the annual budget was frozen at the prior headcount of 12, the ramp creates an operating-expense variance in CC-5100 that grows month by month. The May effect is approximately USD 281,000 above the frozen budget as the first cohort onboards."
+      }
+    ]
+  },
+  {
+    "doc_id": "D16",
+    "doc_title": "Treasury Memo — EUR Exposure Update",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2024-12-09",
+    "effective_from": "2024-12-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Treasury",
+    "entity_scope": [
+      "EMEA"
+    ],
+    "topic": [
+      "fx",
+      "revenue",
+      "currency"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Exposure Summary",
+        "text": "To: Group Financial Controller. From: Treasury. Date: 9 December 2024. Subject: EUR exposure and the December reporting impact. EMEA revenue is invoiced in euro and translated to US dollars at the average monthly rate. The euro weakened approximately 9% against the dollar during the month."
+      },
+      {
+        "section": "§2 Rate Movement and Revenue Impact",
+        "text": "The 9% adverse rate movement reduces reported EMEA revenue by approximately USD 405,000 in December versus the frozen budget, which assumed the prior-year average rate. The movement is translation only and does not reflect a change in underlying EMEA volume or pricing. No hedge was in force for the period."
+      }
+    ]
+  },
+  {
+    "doc_id": "D17",
+    "doc_title": "Treasury Memo — Revolver Draw and Leverage Grid",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2025-03-11",
+    "effective_from": "2025-03-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Treasury",
+    "entity_scope": [
+      "Group"
+    ],
+    "topic": [
+      "interest",
+      "revolver",
+      "covenant",
+      "leverage"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Draw Summary",
+        "text": "To: Group Financial Controller. From: Treasury. Date: 11 March 2025. Subject: Revolver draw and pricing grid movement. A further USD 15,000,000 was drawn on the revolving facility in March to fund seasonal working capital, bringing total drawings to USD 50,000,000 against the USD 60,000,000 facility."
+      },
+      {
+        "section": "§3 Pricing Grid and Interest Impact",
+        "text": "The additional draw moves net leverage to 3.4 times trailing EBITDA against the 3.5 times covenant limit, leaving headroom of 0.1 times. Under the pricing grid this steps the applicable margin up by 100 basis points, increasing March interest expense by approximately USD 104,000. Because headroom is below the 0.25 times disclosure trigger, covenant commentary is required this period irrespective of the dollar materiality thresholds."
+      }
+    ]
+  },
+  {
+    "doc_id": "D18",
+    "doc_title": "Aftermarket Launch Brief",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2025-06-18",
+    "effective_from": "2025-06-18",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Product",
+    "entity_scope": [
+      "Aftermarket Parts"
+    ],
+    "topic": [
+      "launch",
+      "revenue",
+      "opex",
+      "product"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§2 Launch Plan",
+        "text": "To: Commercial Director. From: Product. Date: 18 June 2025. Subject: Aftermarket range launch, planning basis. The Aftermarket Parts range launches in August. The planning basis assumes an incremental USD 620,000 of revenue in the launch month, with associated launch costs of approximately USD 400,000 in marketing and channel support."
+      },
+      {
+        "section": "§4 Planning Caveat",
+        "text": "These figures reflect the launch scope agreed in June. Any subsequent change to the launch scope, channel mix, or promotional calendar will change the revenue and cost profile, and this brief will not be reissued. Confirm the current scope with the Product team before relying on these figures for reporting."
+      }
+    ]
+  },
+  {
+    "doc_id": "D19",
+    "doc_title": "Operations Memo — Inventory Write-Down",
+    "doc_type": "memo",
+    "category": "causes",
+    "version": "v1.0",
+    "published_date": "2025-10-09",
+    "effective_from": "2025-10-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Operations",
+    "entity_scope": [
+      "All"
+    ],
+    "topic": [
+      "inventory",
+      "write-down",
+      "cogs"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Write-Down Basis",
+        "text": "To: Operations Controller. From: Operations. Date: 9 October 2025. Subject: Slow-moving inventory write-down. A review of aged inventory identified slow-moving Drive Assemblies and Aftermarket stock carried above net realisable value. A write-down of approximately USD 1,800,000 is recognised in October cost of goods sold."
+      },
+      {
+        "section": "§2 Cash and Ratio Effect",
+        "text": "The write-down is a non-cash charge that increases October cost of goods sold and reduces reported days inventory outstanding. It does not affect the revolver draw or covenant headroom for the quarter."
+      }
+    ]
+  },
+  {
+    "doc_id": "D20",
+    "doc_title": "Monthly Management Commentary Pack — June 2023",
+    "doc_type": "commentary",
+    "category": "precedent",
+    "version": "v1.0",
+    "published_date": "2023-07-05",
+    "effective_from": "2023-07-05",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Group FP&A",
+    "entity_scope": [
+      "All"
+    ],
+    "topic": [
+      "commentary",
+      "precedent"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "COGS Commentary — June 2023",
+        "text": "Drive Assemblies cost of goods sold ran USD 495,000 over budget in June 2023, driven by an 18% rise in the steel index under our indexed supply contract [ref: Procurement memo]. The effect is expected to persist while the index remains elevated."
+      },
+      {
+        "section": "Style Note",
+        "text": "Commentary is written in short factual sentences, states the dollar and percentage variance, names the single most material driver, and cites the supporting source. Speculation and recommendations beyond the escalation path are not included."
+      }
+    ]
+  },
+  {
+    "doc_id": "D32",
+    "doc_title": "Procurement Memo — Resin Cost Movement",
+    "doc_type": "memo",
+    "category": "distractor",
+    "version": "v1.0",
+    "published_date": "2023-06-14",
+    "effective_from": "2023-06-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Procurement",
+    "entity_scope": [
+      "Precision Fittings"
+    ],
+    "topic": [
+      "input cost",
+      "resin",
+      "cogs"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Summary",
+        "text": "To: Operations Controller. From: Procurement. Date: 14 June 2023. Subject: Resin cost movement and impact on Precision Fittings. The engineered-resin index rose 4% in June, affecting Precision Fittings, which carries the highest resin content. The estimated June cost impact is modest and below the commentary threshold."
+      }
+    ]
+  },
+  {
+    "doc_id": "D34",
+    "doc_title": "Sales Headcount Plan FY2024",
+    "doc_type": "memo",
+    "category": "distractor",
+    "version": "v1.0",
+    "published_date": "2024-05-05",
+    "effective_from": "2024-05-01",
+    "effective_to": null,
+    "supersedes": null,
+    "superseded_by": null,
+    "owner": "Commercial",
+    "entity_scope": [
+      "CC-2100"
+    ],
+    "topic": [
+      "headcount",
+      "opex",
+      "hiring"
+    ],
+    "sensitivity": "internal",
+    "sections": [
+      {
+        "section": "§1 Plan Overview",
+        "text": "To: Commercial Director. From: Sales Operations. Date: 5 May 2024. Subject: Sales headcount plan. The plan adds two field sales representatives in CC-2100 in the second quarter. The budgeted impact is within the frozen CC-2100 plan and does not create a material operating-expense variance."
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+Area,Module 7 prototype,Module 8 final,Evidence
+Retrieval hit rate (same hold-out cases),2/6 (33%),4/6 (67%),results/retrieval_config_comparison.csv; precedent documents excluded from the causes axis
+Numeric fidelity,4/5 (C3 derived a threshold),6/6,"materiality thresholds now supplied as verified figures, so the model has no reason to compute one"
+Correct abstention,2/2,6/6,"evidence-less stratum grown from 2 cases to 8, of which 6 fall in the hold-out periods reported here"
+Over-abstention (abstained with evidence present),not measured,0/4,metric added; measuring only correct abstention had hidden a gate that abstained on everything
+Test cases,8 hand-picked,20 across 8 consecutive close periods,data/test_cases.csv
+Comparison arms,1 (B3 only),5 (B0 to B4),results/benchmark_results.csv
+Validation design,"none, configured and reported on the same cases","temporal split, configured on 2 periods and reported on 8",an absolute threshold scored 4/4 on the config periods and then failed on 100% of hold-out cases
+Corpus,12 documents,15 documents,"D16 FX, D17 revolver and covenant, D18 stale launch brief added"
+Materiality rules,dollar thresholds only,dollar thresholds plus the covenant trigger,D01 4.3; a $104K interest movement is immaterial in dollars yet reportable on covenant headroom
+Serving and speed,"Colab VM, 142.19s per case","local Ollama, 1.25s per case","the deployment premise is that pre-release figures do not leave the organisation, now demonstrated rather than argued"

@@ -1,0 +1,4 @@
+config,hits,n,rate,misses
+Module 7 baseline,2,6,0.333,"P2402-1, P2412-1, P2508-1, P2510-1"
+Module 8 principled,4,6,0.667,"P2508-1, P2510-1"
+k=4 variant (tuned),5,6,0.833,P2508-1

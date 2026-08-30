@@ -1,0 +1,88 @@
+# Theme and toolbar for the Grounded Variance Commentary review interface.
+
+[client]
+# The built-in menu ships developer controls that do not belong in front of a
+# finance reader: Deploy, Rerun, Auto rerun, Clear cache. Clear cache is the worst
+# of them, because it would evict the embedding model and stall the app for a
+# reader who pressed it out of curiosity. "minimal" hides every built-in entry and
+# leaves only what this app sets for itself through st.set_page_config, which is a
+# single About item.
+toolbarMode = "minimal"
+
+#
+# The use scene is a month-end close on an office desk in daylight, and the same
+# screen projected for review, so the surface is light and paper-neutral rather
+# than a dark console. Colour carries exactly one job: the triage state of a
+# variance line. Therefore the accent is blue, which leaves red and green free to
+# mean "no evidence" and "evidence found" without competing with primary actions.
+#
+# Streamlit exposes these semantic slots to st.badge, the :colour[...] and
+# :colour-badge[...] markdown syntax, and the alert boxes, so setting them here
+# is what keeps the status vocabulary consistent across the whole app.
+
+[theme]
+# Committed to light, and the light/dark toggle is switched off with the rest of the
+# menu rather than left half-working. Streamlit does support [theme.light] and
+# [theme.dark], so a real dark mode is available in principle. It is not built here
+# for two reasons. The use scene is a month-end close at a daytime desk, on a screen
+# that also gets projected and printed. And the panels this app draws itself carry
+# their own colours, so they would need the palette chosen in Python from
+# st.context.theme, which Streamlit documents as unreliable at exactly the two
+# moments that matter: first load, and the instant the reader flips the toggle.
+base = "light"
+
+# Surfaces. A warm off-white page with a slightly deeper neutral for panels and
+# table headers, so grouped content separates without a border on everything.
+backgroundColor = "#FCFCFA"
+secondaryBackgroundColor = "#F0EFE9"
+textColor = "#1A1A17"
+borderColor = "#DEDCD4"
+
+# Actions and selection only.
+primaryColor = "#1D4E89"
+linkColor = "#1D4E89"
+linkUnderline = true
+
+# Type. A system stack: familiar in a finance tool, renders offline, and needs no
+# network request at load.
+font = "ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+headingFont = "ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+codeFont = "ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace"
+baseFontSize = 15
+headingFontWeights = [600, 600, 600, 600, 600, 600]
+
+# Precise rather than soft. A ledger has corners.
+baseRadius = "small"
+buttonRadius = "small"
+showWidgetBorder = true
+showSidebarBorder = true
+
+# Data tables read as tables, not as floating text.
+dataframeBorderColor = "#DEDCD4"
+dataframeHeaderBackgroundColor = "#EBE9E1"
+
+# The status vocabulary. Every pairing below was checked for contrast: the text
+# tone on its own background clears 4.5:1.
+redColor = "#A32B26"            # material, no supporting evidence, chase the owner
+redBackgroundColor = "#F8E8E5"
+redTextColor = "#7A1F1B"
+
+greenColor = "#16803F"          # material, a documented reason was found
+greenBackgroundColor = "#E4EFE8"
+greenTextColor = "#14472F"
+
+orangeColor = "#9A5B12"         # flagged by the covenant rule
+orangeBackgroundColor = "#F9EEDE"
+orangeTextColor = "#6B3E08"
+
+grayColor = "#6B6862"           # below the reporting threshold, nothing to do
+grayBackgroundColor = "#EDECE5"
+grayTextColor = "#46443E"
+
+yellowColor = "#8A6A12"         # the prototype limitation notice
+yellowBackgroundColor = "#F9F2DC"
+yellowTextColor = "#5F4808"
+
+blueColor = "#1D4E89"
+blueBackgroundColor = "#E6EDF6"
+blueTextColor = "#153A66"
