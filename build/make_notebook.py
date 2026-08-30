@@ -96,9 +96,9 @@ from pathlib import Path
 
 IN_COLAB = importlib.util.find_spec("google.colab") is not None
 
-# Set this once the repository is published, then Colab can fetch it on its own.
-REPO_URL = None          # e.g. "https://github.com/<owner>/<repo>.git"
-REPO_DIR = "mai600-module8-final-project"
+# Published repository, so Colab can fetch the project on its own.
+REPO_URL = "https://github.com/laissantos-del/mai600-module8-grounded-variance-commentary.git"
+REPO_DIR = "mai600-module8-grounded-variance-commentary"
 
 
 def find_root(start: Path):

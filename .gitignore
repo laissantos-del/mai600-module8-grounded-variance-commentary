@@ -7,3 +7,9 @@ venv/
 .pytest_cache/
 node_modules/
 package-lock.json
+
+# The academic article and its generator are submitted separately and are
+# deliberately kept out of this repository.
+final_article_APA.docx
+*.docx
+build/make_article.js

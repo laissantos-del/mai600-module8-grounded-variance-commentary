@@ -1,31 +1,31 @@
 arm,case_id,stratum,period,account,variance_usd,commentary_required,gold_doc,retrieval_hit,numeric_fidelity,unmatched_figures,abstained,response_time_s,prompt_chars,gate_passed,gate_reason,answer,outcome,metric
-B3,C1,documented,2023-06,5000 · Cost of Goods Sold,495000,True,D11,True,True,,False,1.39,2924,,,"Headline: Variance of $495,000 (+9.9%) [n]  
+B3,C1,documented,2023-06,5000 · Cost of Goods Sold,495000,True,D11,True,True,,False,1.24,2924,,,"Headline: Variance of $495,000 (+9.9%) [n]  
 Cause: Steel index increase directly impacting Drive Assemblies unit cost [n]  
 Accountable owner: Not specified (escalate to cost-centre owner) [n]  
 Citations: [3] D11 §2, [1] D01 §4.2 (a) and (b) — variance exceeds both dollar and percentage materiality thresholds.","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
-B3,C2,documented,2023-11,4000 · Revenue,-743000,True,D12,True,True,,True,1.82,3374,,,"Headline: $743,000 (-22.0%) variance in North America Drive Assemblies revenue.  
+B3,C2,documented,2023-11,4000 · Revenue,-743000,True,D12,True,True,,True,1.74,3374,,,"Headline: $743,000 (-22.0%) variance in North America Drive Assemblies revenue.  
 Cause: unsupported  
 Accountable owner: cost-centre owner (CC-2100)  
 Citations: [3] D12 §2 (driver evidence); policy [1] (materiality) — variance exceeds both dollar ($743,000 > $500,000) and percentage (22.0% > 5.0%) thresholds.","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
-B3,C3,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,True,True,,False,1.62,3089,,,"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
+B3,C3,documented,2024-05,6500 · R&D Operating Expense,281000,True,D15,True,True,,False,1.55,3089,,,"Headline: $281,000 (+41.6%) variance in R&D Operating Expense [n]  
 Cause: supported by D15 §1 (headcount ramp to 25 in Q2–Q3) [n]  
 Accountable owner: K. Okafor, R&D Finance Lead [n]  
 Citation: [1] D01 §4.2 (materiality met: $281k > $250k and 41.6% > 5%) [n]","hit=True, numeric=PASS",Retrieval hit @3 / Numeric fidelity
-B3,C4,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,False,True,,True,1.76,3188,,,"Headline: $1,800,000 (+19.2%) variance in COGS.  
+B3,C4,documented,2025-10,5000 · Cost of Goods Sold,1800000,True,D19,False,True,,True,1.68,3188,,,"Headline: $1,800,000 (+19.2%) variance in COGS.  
 Cause: unsupported.  
 Accountable owner: CC-3100 cost-centre owner.  
 [Citation: [3], [5] — no direct link to CC-3100 or COGS overall; driver evidence only references Drive Assemblies, not full product line or cost-centre.]  
 [Policy: D01 §4.2 — variance exceeds materiality thresholds ($1.8M > $500K), thus commentary required.]","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity
-B3,C5,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,True,,True,1.65,3015,,,"Headline: $2,400,000 variance (+379.1%), unsupported.  
+B3,C5,evidence_less,2024-09,6100 · Legal & Professional,2400000,True,,,True,,True,1.57,3015,,,"Headline: $2,400,000 variance (+379.1%), unsupported.  
 Accountable owner: M. Duarte, Group Financial Controller.  
 [Citation: 3] does not support cause; [4][5] pertain to other cost centres.  
 [Policy D01 §4.3] does not trigger due to no covenant metric movement.  
 [Materiality] thresholds not met: $2.4M > $500K (dollar alone), but no driver evidence.  
 Cause: unsupported [n]. Escalate to cost-centre owner.",PASS,Abstention correctness
-B3,C6,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,True,1.58,3187,,,"Headline: $680,000 (7.3%) variance against budget — unsupported.  
+B3,C6,evidence_less,2025-06,5000 · Cost of Goods Sold,-680000,True,,,True,,True,1.51,3187,,,"Headline: $680,000 (7.3%) variance against budget — unsupported.  
 Accountable owner: Not assigned.  
 Citation: [n] — No DRIVER EVIDENCE supports a cause for COGS variance in CC-3100. Policy [1] triggers commentary due to variance exceeding $250,000 and 5% of budget ($468,750), but no driver evidence exists. Escalate to cost-centre owner.",PASS,Abstention correctness
-B3,C7,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,False,True,,True,1.29,3351,,,"Headline: $900,000 (+6.0%) revenue variance [n]  
+B3,C7,version_sensitive,2024-02,4000 · Revenue,900000,True,D14,False,True,,True,1.23,3351,,,"Headline: $900,000 (+6.0%) revenue variance [n]  
 Cause: unsupported [n]  
 Accountable owner: cost-centre owner of CC-2100  
 Citations: [1] (materiality met: $900K > $500K), [2] (effect decomposition), [3] (no revenue impact cited for February)","hit=False, numeric=PASS",Retrieval hit @3 / Numeric fidelity

@@ -238,7 +238,6 @@ python build/make_notebook.py
 
 ```
 README.md                                                   this file
-GroundedVarianceCommentary_LaisSantosSilva.docx             the academic article
 ai_usage_disclosure.md                                      how AI tools were used
 requirements.txt
 
@@ -458,8 +457,8 @@ to be re-established under any other serving arrangement.
 
 ## 12. References and disclosure
 
-Full APA 7 references are in the article, `GroundedVarianceCommentary_LaisSantosSilva.docx`. The primary sources
-behind the design are Lewis et al. (2020) on retrieval-augmented generation, Gao et al.
+The academic article is submitted separately and is deliberately not held in this
+repository. The primary sources behind the design are Lewis et al. (2020) on retrieval-augmented generation, Gao et al.
 (2023) on the RAG design space, Ji et al. (2023) on hallucination in generation,
 Rajpurkar et al. (2018) on answerability and the value of declining to answer, Rashkin et
 al. (2023) on attribution to identified sources, Es et al. (2024) on reference-free RAG

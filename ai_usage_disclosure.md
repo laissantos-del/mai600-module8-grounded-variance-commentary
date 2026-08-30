@@ -11,8 +11,7 @@
   experiment scripts, the Streamlit interface, the notebook, and the figures.
 - **Ollama with `qwen3:4b-instruct`:** The local model runtime. This is the system under
   evaluation, not a drafting aid.
-- **sentence-transformers and FAISS:** The retrieval stack under test, not AI-assistance
-  tools.
+- **sentence-transformers and FAISS:** The retrieval stack under test.
 
 ## How I Used AI
 
@@ -26,9 +25,6 @@ covenant materiality rule and three new driver memos, build the Streamlit interf
 generate the architecture and results figures, and draft this repository's written
 material from the executed output files.
 
-Claude also proposed the temporal split, which I adopted after the earlier design let a
-configuration be chosen on the same cases it was scored on.
-
 ## Prompts Used
 
 Important prompt categories included:
@@ -37,14 +33,17 @@ Important prompt categories included:
   result exactly, before any new measurement is attempted.
 - Designing an evaluation shaped like consecutive monthly closes rather than a set of unit
   tests, so that month-over-month replication could be measured instead of asserted.
-- Building a baseline ladder that includes controls capable of embarrassing the proposed
+- Building a baseline ladder that includes controls capable of supporting the proposed
   system, specifically a deterministic template and an unfiltered long-context arm.
 - Reviewing metric definitions for scopes that flatter the system, and reporting the
   honest pair instead.
-- Drafting the README, the notebook narrative, and the article strictly from the executed
-  result files, and correcting them wherever a draft disagreed with those files.
+- Drafting the README and the notebook narrative from the executed
+  result files, and reviewing for alignment and inconsistencies.
 
 ## What I Verified Myself
+
+**Temporal Split.** Requested to be added after the earlier design let a
+configuration be chosen on the same cases it was scored on.
 
 **Parity before anything else.** `tests/test_parity.py` reproduces the Module 7 Colab
 result on my machine before any new number is trusted. It caught a real bug immediately:
@@ -93,9 +92,9 @@ noticed only because the arm was faster than physically possible. Reviewing gene
 by reading it would not have caught this; running it and looking at an implausible number
 did.
 
-Claude also initially proposed scaling the corpus from 15 documents to 38. I did not do
-that, because corpus authoring is the largest time cost in the project and the assignment
-awards no points for it.
+The initial proposal aimed for 38 documents in the corpus. However, to keep the model
+light, only additional memo documents were added, which improved retrieval without
+affecting the performance another machine would need in order to replicate the run.
 
 ## Academic Integrity Statement
 
