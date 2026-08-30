@@ -138,6 +138,13 @@ to abstain would put the safety property in the least reliable part of the syste
 - Embeddings: `sentence-transformers/all-MiniLM-L6-v2`
 - Index: FAISS inner product over normalized vectors, so the score is cosine similarity
 - Generation: `qwen3:4b-instruct` served locally by Ollama, temperature 0, seed 42
+- Retrieval: `k_rules=2`, `k_causes=3`, `exclude_precedent=True`
+- Sufficiency gate: `tau=0.25`, `require_scope_match=True`
+
+The last two lines are the configuration every reported number was produced under, and
+both the interface and `build/run_experiments.py` use it. The gate values matter and are
+easy to get wrong: similarity scores on this corpus cluster between 0.34 and 0.45, so the
+0.45 floor proposed in Module 7 makes the gate fire on every case.
 
 ---
 
