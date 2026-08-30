@@ -12,6 +12,8 @@
 - **Ollama with `qwen3:4b-instruct`:** The local model runtime. This is the system under
   evaluation, not a drafting aid.
 - **sentence-transformers and FAISS:** The retrieval stack under test.
+- **ChatGPT:** Used during final submission preparation for cross-document consistency review,
+  citation verification support, APA 7 formatting, and redundancy reduction in writing. 
 
 ## How I Used AI
 
@@ -24,6 +26,11 @@ eight hand-picked probes to twenty-six cases across ten consecutive close period
 covenant materiality rule and three new driver memos, build the Streamlit interface,
 generate the architecture and results figures, and draft this repository's written
 material from the executed output files.
+
+ChatGPT was used after the experimental runs were complete to review the final article against 
+the project results and assignment requirements, align the writing, verify citation support, 
+identify wording that was stronger than the available evidence, reduce redundancy, 
+and prepare the APA 7 Word submission. 
 
 ## Prompts Used
 
