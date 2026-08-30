@@ -31,9 +31,17 @@ from gvc.retrieval import Retriever, RetrievalConfig  # noqa: E402
 
 RESULTS = ROOT / "results"
 
-BASELINE = RetrievalConfig(k_causes=3, exclude_precedent=False)          # Module 7
-PRINCIPLED = RetrievalConfig(k_causes=3, exclude_precedent=True)          # Module 8
-TUNED = RetrievalConfig(k_causes=4, exclude_precedent=True)               # secondary
+# tau and require_scope_match govern the sufficiency gate, so they change B4 only.
+# They must be stated explicitly here rather than left to RetrievalConfig's defaults
+# of 0.45 and False. Those defaults carry the Module 7 proposal, and on this corpus
+# similarity scores cluster between 0.34 and 0.45, so a 0.45 floor makes the gate fire
+# on every case. Leaving them implicit once produced a script that no longer reproduced
+# the results it was supposed to reproduce.
+GATE = dict(tau=0.25, require_scope_match=True)
+
+BASELINE = RetrievalConfig(k_causes=3, exclude_precedent=False, **GATE)   # Module 7
+PRINCIPLED = RetrievalConfig(k_causes=3, exclude_precedent=True, **GATE)  # Module 8
+TUNED = RetrievalConfig(k_causes=4, exclude_precedent=True, **GATE)       # secondary
 
 
 def retrieval_only(r: Retriever, cases) -> tuple[int, int, list[str]]:
