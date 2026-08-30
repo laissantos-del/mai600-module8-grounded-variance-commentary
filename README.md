@@ -423,9 +423,9 @@ labelled as tuned, because its only justification was that it captured a gold do
 a case whose failure had already been inspected.
 
 **Correct abstention reads 2/2 before and 6/6 after, which understates the change.** The
-rate is 100% in both columns. However, the measurement went from two cases to eight, and
-over-abstention was not measured at all in Module 7, which had hidden a candidate
-configuration that abstained on everything.
+rate is 100% in both columns. However, the evaluated evidence-less sample grew from two cases
+to six hold-out cases, while the complete final dataset contains eight evidence-less cases 
+across all 10 closes. In addition, over-abstention was not measured in Module 7.
 
 **The speed change is a deployment result, not a benchmark.** Module 7 ran on a hosted
 notebook VM at 142.19 seconds per generated case. Module 8 runs locally at 1.25 seconds.
