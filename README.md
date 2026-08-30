@@ -150,16 +150,34 @@ easy to get wrong: similarity scores on this corpus cluster between 0.34 and 0.4
 
 ## 5. Setup
 
-Requires Python 3.12 and [Ollama](https://ollama.com).
+Requires Python 3.10 or newer. Everything except generation runs with the packages
+below alone; generation additionally needs [Ollama](https://ollama.com), which is not a
+pip package and installs separately.
 
 ```bash
+git clone https://github.com/laissantos-del/mai600-module8-grounded-variance-commentary.git
+cd mai600-module8-grounded-variance-commentary
+
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
-ollama serve
+
+# generation only
 ollama pull qwen3:4b-instruct
+ollama serve
 ```
 
-Tested on macOS 26.5 on Apple silicon, Python 3.12.10.
+`requirements.txt` lists the eleven packages the project imports, with the versions it
+was tested against as lower bounds, so pip resolves the rest for your platform. It
+deliberately does not pin a full environment: an earlier version was a `pip freeze` of
+the author's machine and included `appnope`, which is macOS only and would fail the
+install anywhere else.
+
+Verified by installing into an empty virtual environment and running the notebook end to
+end from it. Developed on macOS 26.5, Apple silicon, Python 3.12.10.
+
+The notebook opens with a preflight cell that checks the Python version, locates the
+project, confirms the packages, and reports whether the model server is reachable. It
+names whatever is missing instead of failing several cells later.
 
 ---
 
