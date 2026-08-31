@@ -271,7 +271,7 @@ outright.
 
 ```
 README.md                                                   this file
-MAI600_Final_Article_GroundedVarianceCommentary_LaisSantosSilva.pdf   the academic article, APA
+MAI600_FinalArticle_GroundedVarianceCommentary_LaisSantosSilva.pdf    the academic article, APA
 ai_usage_disclosure.md                                      how AI tools were used
 requirements.txt
 
@@ -492,7 +492,7 @@ to be re-established under any other serving arrangement.
 ## 12. References and disclosure
 
 Full APA 7 references are in the article,
-[MAI600_Final_Article_GroundedVarianceCommentary_LaisSantosSilva.pdf](MAI600_Final_Article_GroundedVarianceCommentary_LaisSantosSilva.pdf). The primary sources behind the design are Lewis et al. (2020) on retrieval-augmented generation, Gao et al.
+[MAI600_FinalArticle_GroundedVarianceCommentary_LaisSantosSilva.pdf](MAI600_FinalArticle_GroundedVarianceCommentary_LaisSantosSilva.pdf). The primary sources behind the design are Lewis et al. (2020) on retrieval-augmented generation, Gao et al.
 (2023) on the RAG design space, Ji et al. (2023) on hallucination in generation,
 Rajpurkar et al. (2018) on answerability and the value of declining to answer, Rashkin et
 al. (2023) on attribution to identified sources, Es et al. (2024) on reference-free RAG
