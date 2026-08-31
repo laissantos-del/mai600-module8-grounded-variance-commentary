@@ -24,6 +24,22 @@ ROOT = Path(__file__).resolve().parents[1]
 IMAGES = ROOT / "images"
 IMAGES.mkdir(parents=True, exist_ok=True)
 
+# ---------------------------------------------------------------- image guard
+# Two of the three figures in images/ are hand-authored and supersede what these
+# scripts draw. Regenerating them silently would replace a published figure with an
+# older design, so overwriting an existing one requires an explicit flag.
+AUTHORED = {"system_architecture.png", "evaluation_chart.png"}
+
+
+def may_write(path) -> bool:
+    import sys
+    if path.name in AUTHORED and path.exists() and "--overwrite-images" not in sys.argv:
+        print(f"  SKIPPED {path.name}: the shipped figure is hand-authored. "
+              f"Pass --overwrite-images to replace it.")
+        return False
+    return True
+
+
 NAVY, GREY, BLUE, GREEN, RED = "#0d2c4d", "#7f9db8", "#2e8bc9", "#1f9d76", "#c0554f"
 INK, FAINT = "#1b2b3a", "#f4f7fa"
 
@@ -194,9 +210,10 @@ def main() -> int:
             parse_math=False)
 
     out = IMAGES / "system_architecture.png"
-    fig.savefig(out, dpi=150, bbox_inches="tight", facecolor="white")
+    if may_write(out):
+        fig.savefig(out, dpi=150, bbox_inches="tight", facecolor="white")
+        print(out)
     plt.close(fig)
-    print(out)
     return 0
 
 

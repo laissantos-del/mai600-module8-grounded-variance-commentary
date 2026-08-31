@@ -8,8 +8,7 @@ venv/
 node_modules/
 package-lock.json
 
-# The academic article and its generator are submitted separately and are
-# deliberately kept out of this repository.
-final_article_APA.docx
+# The article ships as a PDF. The intermediate .docx and its generator are not
+# part of the submission and stay out.
 *.docx
 build/make_article.js
