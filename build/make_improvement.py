@@ -25,20 +25,19 @@ RESULTS = ROOT / "results"
 IMAGES = ROOT / "images"
 IMAGES.mkdir(parents=True, exist_ok=True)
 
-# ---------------------------------------------------------------- image guard
-# Two of the three figures in images/ are hand-authored and supersede what these
-# scripts draw. Regenerating them silently would replace a published figure with an
-# older design, so overwriting an existing one requires an explicit flag.
+# ------------------------------------------------------------- generated output
+# Two of the three figures shipped in images/ are hand-authored and supersede what
+# these scripts draw. The scripts still run for anyone who wants to, but they write
+# their own output beside the published figure rather than over it, so nothing is
+# lost and nothing is blocked.
 AUTHORED = {"system_architecture.png", "evaluation_chart.png"}
 
 
-def may_write(path) -> bool:
-    import sys
-    if path.name in AUTHORED and path.exists() and "--overwrite-images" not in sys.argv:
-        print(f"  SKIPPED {path.name}: the shipped figure is hand-authored. "
-              f"Pass --overwrite-images to replace it.")
-        return False
-    return True
+def out_path(path):
+    """Redirect to a _generated name when the published figure is hand-authored."""
+    if path.name in AUTHORED:
+        return path.with_name(path.stem + "_generated" + path.suffix)
+    return path
 
 
 BG, GREY, BLUE, GREEN, RED = "#0d2c4d", "#7f9db8", "#2e8bc9", "#1f9d76", "#c0554f"
@@ -206,8 +205,7 @@ def main() -> int:
              "why it is faster than B3.",
              ha="center", fontsize=8.5, style="italic", color="#44607a")
     fig.tight_layout()
-    if may_write(IMAGES / "evaluation_chart.png"):
-        fig.savefig(IMAGES / "evaluation_chart.png", dpi=150, bbox_inches="tight")
+    fig.savefig(out_path(IMAGES / "evaluation_chart.png"), dpi=150, bbox_inches="tight")
     plt.close(fig)
     print("\nevaluation_chart.png")
 
@@ -256,8 +254,7 @@ def main() -> int:
             f"Module 7.",
             transform=ax.transAxes, ha="center", fontsize=8.5, style="italic", color="#44607a")
     fig.tight_layout()
-    if may_write(IMAGES / "improvement_chart.png"):
-        fig.savefig(IMAGES / "improvement_chart.png", dpi=150, bbox_inches="tight")
+    fig.savefig(out_path(IMAGES / "improvement_chart.png"), dpi=150, bbox_inches="tight")
     plt.close(fig)
     print("improvement_chart.png")
     return 0

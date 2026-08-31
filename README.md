@@ -257,10 +257,12 @@ python build/package_repo.py
 python build/make_notebook.py
 ```
 
-The architecture diagram and the baseline-ladder chart are hand-authored and supersede
-what those scripts draw, so the scripts refuse to overwrite them. Pass
-`--overwrite-images` only if you intend to replace a published figure with the older
-generated design. The result tables regenerate normally either way.
+Every script above runs to completion and nothing is blocked. The architecture diagram
+and the baseline-ladder chart are hand-authored and supersede the older design those
+scripts draw, so the scripts write their own version alongside as
+`*_generated.png` rather than over the published figure. Those scratch files are
+gitignored. `improvement_chart.png` has no hand-authored version, so the script owns it
+outright.
 
 
 ---

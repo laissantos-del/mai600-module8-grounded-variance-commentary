@@ -12,3 +12,7 @@ package-lock.json
 # part of the submission and stay out.
 *.docx
 build/make_article.js
+
+# Scratch output from build/make_architecture.py and build/make_improvement.py.
+# They write beside the published figures rather than over them.
+images/*_generated.png
